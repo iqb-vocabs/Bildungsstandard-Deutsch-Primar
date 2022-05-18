@@ -1,0 +1,489 @@
+@base <https://example.com/iqb/bista2004dp/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<> a skos:ConceptScheme ;
+    dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de ;
+    dct:description "Bildungsstandards für die Kompetenzbereiche im Fach Deutsch für den Primarbereich<br><br>In der Grundschule erweitern die Kinder ihre Sprachhandlungskompetenz in den Bereichen des Sprechens und Zuhörens, des Schreibens, des Lesens und Umgehens mit Texten und Medien sowie des Untersuchens von Sprache und Sprachgebrauch.<br><br>Die Kompetenzbereiche sind im Sinne eines integrativen Deutschunterrichts aufeinander bezogen. Das sinnvolle sprachliche Handeln der Schülerinnen und Schüler und der sorgfältige und angemessene Umgang mit Sprache stehen im Mittelpunkt. Sachbezogenes, methodenbezogenes und soziales Lernen sind im Deutschunterricht der Grundschule untrennbar miteinander verbunden." ;
+    dct:publisher "IQB" ;
+    dct:title "Deutsch Primar" .
+
+<DEU001> a skos:Concept ;
+    skos:definition "Die mündliche Sprache ist ein zentrales Mittel aller schulischen und außerschulischen Kommunikation. Sprechen ist immer auch soziales Handeln.<br><br>Die Kinder entwickeln eine demokratische Gesprächskultur und erweitern ihre mündliche Sprachhandlungskompetenz. Sie führen Gespräche, erzählen, geben und verarbeiten Informationen, gestalten ihr Sprechen bewusst und leisten mündliche Beiträge zum Unterricht.<br><br>Sie drücken ihre Gedanken und Gefühle aus und formulieren ihre Äußerungen im Hinblick auf Zuhörer und Situation angemessen, hören aufmerksam und genau zu, nehmen die Äußerungen anderer und setzen sich mit diesen konstruktiv auseinander." ;
+    skos:prefLabel "Sprechen und Zuhören" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004dp/DEU001/1.1",
+        "https://example.com/iqb/bista2004dp/DEU001/1.2",
+        "https://example.com/iqb/bista2004dp/DEU001/1.3",
+        "https://example.com/iqb/bista2004dp/DEU001/1.4",
+        "https://example.com/iqb/bista2004dp/DEU001/1.5" .
+
+<DEU001/1.1> a skos:Concept ;
+    skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU001" ;
+    skos:prefLabel "Gespräche führen" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004dp/DEU001/1.1/1.1.1",
+        "https://example.com/iqb/bista2004dp/DEU001/1.1/1.1.2",
+        "https://example.com/iqb/bista2004dp/DEU001/1.1/1.1.3" .
+
+<DEU001/1.1/1.1.1> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU001/1.1" ;
+    skos:prefLabel "sich an Gesprächen beteiligen," .
+
+<DEU001/1.1/1.1.2> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU001/1.1" ;
+    skos:prefLabel "gemeinsam entwickelte Gesprächsregeln beachten: z.B. andere zu Ende sprechen lassen, auf Gesprächsbeiträge anderer eingehen, beim Thema bleiben," .
+
+<DEU001/1.1/1.1.3> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU001/1.1" ;
+    skos:prefLabel "Anliegen und Konflikte gemeinsam mit anderen diskutieren und klären." .
+
+<DEU001/1.2> a skos:Concept ;
+    skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU001" ;
+    skos:prefLabel "Zu anderen sprechen" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004dp/DEU001/1.2/1.2.1",
+        "https://example.com/iqb/bista2004dp/DEU001/1.2/1.2.2",
+        "https://example.com/iqb/bista2004dp/DEU001/1.2/1.2.3",
+        "https://example.com/iqb/bista2004dp/DEU001/1.2/1.2.4" .
+
+<DEU001/1.2/1.2.1> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU001/1.2" ;
+    skos:prefLabel "an der gesprochenen Standardsprache orientiert und artikuliert sprechen," .
+
+<DEU001/1.2/1.2.2> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU001/1.2" ;
+    skos:prefLabel "Wirkungen der Redeweise kennen und beachten," .
+
+<DEU001/1.2/1.2.3> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU001/1.2" ;
+    skos:prefLabel "funktionsangemessen sprechen: erzählen, informieren, argumentieren, appellieren," .
+
+<DEU001/1.2/1.2.4> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU001/1.2" ;
+    skos:prefLabel "Sprechbeiträge und Gespräche situationsangemessen planen." .
+
+<DEU001/1.3> a skos:Concept ;
+    skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU001" ;
+    skos:prefLabel "Verstehend zuhören" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004dp/DEU001/1.3/1.3.1",
+        "https://example.com/iqb/bista2004dp/DEU001/1.3/1.3.2",
+        "https://example.com/iqb/bista2004dp/DEU001/1.3/1.3.3" .
+
+<DEU001/1.3/1.3.1> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU001/1.3" ;
+    skos:prefLabel "Inhalte zuhörend verstehen," .
+
+<DEU001/1.3/1.3.2> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU001/1.3" ;
+    skos:prefLabel "gezielt nachfragen," .
+
+<DEU001/1.3/1.3.3> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU001/1.3" ;
+    skos:prefLabel "Verstehen und Nicht-Verstehen zum Ausdruck bringen." .
+
+<DEU001/1.4> a skos:Concept ;
+    skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU001" ;
+    skos:prefLabel "Szenisch spielen" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004dp/DEU001/1.4/1.4.1",
+        "https://example.com/iqb/bista2004dp/DEU001/1.4/1.4.2",
+        "https://example.com/iqb/bista2004dp/DEU001/1.4/1.4.3" .
+
+<DEU001/1.4/1.4.1> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU001/1.4" ;
+    skos:prefLabel "Perspektiven einnehmen," .
+
+<DEU001/1.4/1.4.2> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU001/1.4" ;
+    skos:prefLabel "sich in eine Rolle hineinversetzen und sie gestalten," .
+
+<DEU001/1.4/1.4.3> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU001/1.4" ;
+    skos:prefLabel "Situationen in verschiedenen Spielformen szenisch entfalten." .
+
+<DEU001/1.5> a skos:Concept ;
+    skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU001" ;
+    skos:prefLabel "Über Lernen sprechen" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004dp/DEU001/1.5/1.5.1",
+        "https://example.com/iqb/bista2004dp/DEU001/1.5/1.5.2",
+        "https://example.com/iqb/bista2004dp/DEU001/1.5/1.5.3",
+        "https://example.com/iqb/bista2004dp/DEU001/1.5/1.5.4",
+        "https://example.com/iqb/bista2004dp/DEU001/1.5/1.5.5" .
+
+<DEU001/1.5/1.5.1> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU001/1.5" ;
+    skos:prefLabel "Beobachtungen wiedergeben," .
+
+<DEU001/1.5/1.5.2> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU001/1.5" ;
+    skos:prefLabel "Sachverhalte beschreiben," .
+
+<DEU001/1.5/1.5.3> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU001/1.5" ;
+    skos:prefLabel "Begründungen und Erklärungen geben," .
+
+<DEU001/1.5/1.5.4> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU001/1.5" ;
+    skos:prefLabel "Lernergebnisse präsentieren und dabei Fachbegriffe benutzen," .
+
+<DEU001/1.5/1.5.5> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU001/1.5" ;
+    skos:prefLabel "über Lernerfahrungen sprechen und andere in ihren Lernprozessen unterstützen." .
+
+<DEU002> a skos:Concept ;
+    skos:definition "Im Unterschied zum Sprechen wird beim Schreiben der Text langsamer und überlegter entwickelt, über Geschriebenes kann auch mit anderen nachgedacht und es kann entsprechend überarbeitet werden.<br><br>Die Schülerinnen und Schüler nutzen Schreiben zur Kommunikation, zur Aufbewahrung von Informationen, zur gedanklichen Auseinandersetzung sowie zum kreativen und gestalterischen Umgang mit Sprache. Sie gestalten den Schreibprozess selbstständig und verfassen ihre Texte bewusst im Zusammenhang von Schreibabsicht, Inhaltsbezug und Verwendungszusammenhang. Dabei greifen die Teilprozesse des Schreibens ineinander: Texte planen, aufschreiben und überarbeiten.<br><br>Die Kinder verfügen über grundlegende Rechtschreibstrategien. Sie können lautentsprechend verschriften und berücksichtigen orthographische und morphematische Regelungen und grammatisches Wissen. Sie haben erste Einsichten in die Prinzipien der Rechtschreibung gewonnen. Sie erproben und vergleichen Schreibweisen und denken über sie nach. Sie gelangen durch Vergleichen, Nachschlagen im Wörterbuch und Anwenden von Regeln zur richtigen Schreibweise. Sie entwickeln Rechtschreibgespür und Selbstverantwortung ihren Texten gegenüber.<br><br>Die Schülerinnen und Schüler verfügen über verschiedene Möglichkeiten der ästhetischen Darstellung entsprechend dem Schreibanlass und arbeiten mit unterschiedlichen Medien. Sie schreiben eine lesbare und flüssige Handschrift." ;
+    skos:prefLabel "Schreiben" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004dp/DEU002/2.1",
+        "https://example.com/iqb/bista2004dp/DEU002/2.2",
+        "https://example.com/iqb/bista2004dp/DEU002/2.3" .
+
+<DEU002/2.1> a skos:Concept ;
+    skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU002" ;
+    skos:prefLabel "Über Schreibfertigkeiten verfügen" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004dp/DEU002/2.1/2.1.1",
+        "https://example.com/iqb/bista2004dp/DEU002/2.1/2.1.2",
+        "https://example.com/iqb/bista2004dp/DEU002/2.1/2.1.3" .
+
+<DEU002/2.1/2.1.1> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU002/2.1" ;
+    skos:prefLabel "eine gut lesbare Handschrift flüssig schreiben," .
+
+<DEU002/2.1/2.1.2> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU002/2.1" ;
+    skos:prefLabel "Texte zweckmäßig und übersichtlich gestalten," .
+
+<DEU002/2.1/2.1.3> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU002/2.1" ;
+    skos:prefLabel "den PC – wenn vorhanden - zum Schreiben verwenden und für Textgestaltung nutzen." .
+
+<DEU002/2.2> a skos:Concept ;
+    skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU002" ;
+    skos:prefLabel "Richtig schreiben" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004dp/DEU002/2.2/2.2.1",
+        "https://example.com/iqb/bista2004dp/DEU002/2.2/2.2.2",
+        "https://example.com/iqb/bista2004dp/DEU002/2.2/2.2.3",
+        "https://example.com/iqb/bista2004dp/DEU002/2.2/2.2.4",
+        "https://example.com/iqb/bista2004dp/DEU002/2.2/2.2.5",
+        "https://example.com/iqb/bista2004dp/DEU002/2.2/2.2.6" .
+
+<DEU002/2.2/2.2.1> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU002/2.2" ;
+    skos:prefLabel "geübte, rechtschreibwichtige Wörter normgerecht schreiben," .
+
+<DEU002/2.2/2.2.2> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU002/2.2" ;
+    skos:prefLabel "Rechtschreibstrategien verwenden: Mitsprechen, Ableiten, Einprägen," .
+
+<DEU002/2.2/2.2.3> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU002/2.2" ;
+    skos:prefLabel "Zeichensetzung beachten: Punkt, Fragezeichen, Ausrufezeichen, Zeichen bei wörtlicher Rede," .
+
+<DEU002/2.2/2.2.4> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU002/2.2" ;
+    skos:prefLabel "über Fehlersensibilität und Rechtschreibgespür verfügen," .
+
+<DEU002/2.2/2.2.5> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU002/2.2" ;
+    skos:prefLabel "Rechtschreibhilfen verwenden" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004dp/DEU002/2.2/2.2.5/2.2.5.1",
+        "https://example.com/iqb/bista2004dp/DEU002/2.2/2.2.5/2.2.5.2" .
+
+<DEU002/2.2/2.2.5/2.2.5.1> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU002/2.2/2.2.5" ;
+    skos:prefLabel "Wörterbuch nutzen," .
+
+<DEU002/2.2/2.2.5/2.2.5.2> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU002/2.2/2.2.5" ;
+    skos:prefLabel "Rechtschreibhilfen des Computers kritisch nutzen," .
+
+<DEU002/2.2/2.2.6> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU002/2.2" ;
+    skos:prefLabel "Arbeitstechniken nutzen" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004dp/DEU002/2.2/2.2.6/2.2.6.1",
+        "https://example.com/iqb/bista2004dp/DEU002/2.2/2.2.6/2.2.6.2",
+        "https://example.com/iqb/bista2004dp/DEU002/2.2/2.2.6/2.2.6.3" .
+
+<DEU002/2.2/2.2.6/2.2.6.1> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU002/2.2/2.2.6" ;
+    skos:prefLabel "methodisch sinnvoll abschreiben," .
+
+<DEU002/2.2/2.2.6/2.2.6.2> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU002/2.2/2.2.6" ;
+    skos:prefLabel "Übungsformen selbstständig nutzen," .
+
+<DEU002/2.2/2.2.6/2.2.6.3> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU002/2.2/2.2.6" ;
+    skos:prefLabel "Texte auf orthographische Richtigkeit überprüfen und korrigieren." .
+
+<DEU002/2.3> a skos:Concept ;
+    skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU002" ;
+    skos:prefLabel "Texte verfassen" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004dp/DEU002/2.3/2.3.1",
+        "https://example.com/iqb/bista2004dp/DEU002/2.3/2.3.2",
+        "https://example.com/iqb/bista2004dp/DEU002/2.3/2.3.3" .
+
+<DEU002/2.3/2.3.1> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU002/2.3" ;
+    skos:prefLabel "Texte planen" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004dp/DEU002/2.3/2.3.1/2.3.5.1",
+        "https://example.com/iqb/bista2004dp/DEU002/2.3/2.3.1/2.3.5.2" .
+
+<DEU002/2.3/2.3.1/2.3.5.1> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU002/2.3/2.3.1" ;
+    skos:prefLabel "Schreibabsicht, Schreibsituation, Adressaten und Verwendungszusammenhang klären," .
+
+<DEU002/2.3/2.3.1/2.3.5.2> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU002/2.3/2.3.1" ;
+    skos:prefLabel "sprachliche und gestalterische Mittel und Ideen sammeln: Wörter und Wortfelder, Formulierungen und Textmodelle." .
+
+<DEU002/2.3/2.3.2> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU002/2.3" ;
+    skos:prefLabel "Texte schreiben" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004dp/DEU002/2.3/2.3.2/2.3.5.1",
+        "https://example.com/iqb/bista2004dp/DEU002/2.3/2.3.2/2.3.5.2",
+        "https://example.com/iqb/bista2004dp/DEU002/2.3/2.3.2/2.3.5.3" .
+
+<DEU002/2.3/2.3.2/2.3.5.1> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU002/2.3/2.3.2" ;
+    skos:prefLabel "verständlich, strukturiert, adressaten- und funktionsgerecht schreiben: Erlebtes und Erfundenes; Gedanken und Gefühle; Bitten, Wünsche, Aufforderungen und Vereinbarungen; Erfahrungen und Sachverhalte," .
+
+<DEU002/2.3/2.3.2/2.3.5.2> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU002/2.3/2.3.2" ;
+    skos:prefLabel "Lernergebnisse geordnet festhalten und auch für eine Veröffentlichung verwenden," .
+
+<DEU002/2.3/2.3.2/2.3.5.3> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU002/2.3/2.3.2" ;
+    skos:prefLabel "nach Anregungen (Texte, Bilder, Musik) eigene Texte schreiben." .
+
+<DEU002/2.3/2.3.3> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU002/2.3" ;
+    skos:prefLabel "Texte überarbeiten" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004dp/DEU002/2.3/2.3.3/2.3.5.1",
+        "https://example.com/iqb/bista2004dp/DEU002/2.3/2.3.3/2.3.5.2",
+        "https://example.com/iqb/bista2004dp/DEU002/2.3/2.3.3/2.3.5.3",
+        "https://example.com/iqb/bista2004dp/DEU002/2.3/2.3.3/2.3.5.4" .
+
+<DEU002/2.3/2.3.3/2.3.5.1> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU002/2.3/2.3.3" ;
+    skos:prefLabel "Texte an der Schreibaufgabe überprüfen," .
+
+<DEU002/2.3/2.3.3/2.3.5.2> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU002/2.3/2.3.3" ;
+    skos:prefLabel "Texte auf Verständlichkeit und Wirkung überprüfen," .
+
+<DEU002/2.3/2.3.3/2.3.5.3> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU002/2.3/2.3.3" ;
+    skos:prefLabel "Texte in Bezug auf die äußere und sprachliche Gestaltung und auf die sprachliche Richtigkeit hin optimieren," .
+
+<DEU002/2.3/2.3.3/2.3.5.4> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU002/2.3/2.3.3" ;
+    skos:prefLabel "Texte für die Veröffentlichung aufbereiten und dabei auch die Schrift gestalten." .
+
+<DEU003> a skos:Concept ;
+    skos:definition "Lesen ist ein eigenaktiver Prozess der Sinnkonstruktion. Die Grundschule führt zum genießenden, informierenden, selektiven, interpretierenden und kritischen Lesen und legt damit eine tragfähige Grundlage für weiteres Lernen, für weiteres selbstbestimmtes Lesen und eine bewusste Auswahl geeigneter Medien.<br><br>Die Kinder erfahren, dass Lesen eine Auseinandersetzung mit der Welt ermöglicht und Vergnügen bereiten kann. Dazu werden an unterschiedlichen Texten Leseinteresse, Lesebereitschaft, Lesefertigkeit und sinnverstehendes Lesen entwickelt. Beim Hören und Lesen literarischer Texte beschäftigen sich die Kinder mit wichtigen, sie bewegenden Fragen und setzen sich identifizierend und abgrenzend mit literarischen Figuren auseinander. Schülerinnen und Schüler gehen mit unterschiedlichen Textsorten in verschiedenen Medien um und können sich ihrem Alter entsprechend in der Medienwelt orientieren, d.h. in Druckmedien, in elektronischen Medien sowie in Massenmedien." ;
+    skos:prefLabel "Lesen - mit Texten und Medien umgehen" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004dp/DEU003/3.1",
+        "https://example.com/iqb/bista2004dp/DEU003/3.2",
+        "https://example.com/iqb/bista2004dp/DEU003/3.3",
+        "https://example.com/iqb/bista2004dp/DEU003/3.4" .
+
+<DEU003/3.1> a skos:Concept ;
+    skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU003" ;
+    skos:prefLabel "Über Lesefähigkeiten verfügen" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004dp/DEU003/3.1/3.1.1",
+        "https://example.com/iqb/bista2004dp/DEU003/3.1/3.1.2" .
+
+<DEU003/3.1/3.1.1> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU003/3.1" ;
+    skos:prefLabel "altersgemäße Texte sinnverstehend lesen," .
+
+<DEU003/3.1/3.1.2> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU003/3.1" ;
+    skos:prefLabel "lebendige Vorstellungen beim Lesen und Hören literarischer Texte entwickeln." .
+
+<DEU003/3.2> a skos:Concept ;
+    skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU003" ;
+    skos:prefLabel "Über Leseerfahrung verfügen" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004dp/DEU003/3.2/3.2.1",
+        "https://example.com/iqb/bista2004dp/DEU003/3.2/3.2.2",
+        "https://example.com/iqb/bista2004dp/DEU003/3.2/3.2.3",
+        "https://example.com/iqb/bista2004dp/DEU003/3.2/3.2.4",
+        "https://example.com/iqb/bista2004dp/DEU003/3.2/3.2.5",
+        "https://example.com/iqb/bista2004dp/DEU003/3.2/3.2.6" .
+
+<DEU003/3.2/3.2.1> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU003/3.2" ;
+    skos:prefLabel "verschiedene Sorten von Sach- und Gebrauchstexten kennen," .
+
+<DEU003/3.2/3.2.2> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU003/3.2" ;
+    skos:prefLabel "Erzähltexte, lyrische und szenische Texte kennen und unterscheiden," .
+
+<DEU003/3.2/3.2.3> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU003/3.2" ;
+    skos:prefLabel "Kinderliteratur kennen: Werke, Autoren und Autorinnen, Figuren, Handlungen," .
+
+<DEU003/3.2/3.2.4> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU003/3.2" ;
+    skos:prefLabel "Texte begründet auswählen," .
+
+<DEU003/3.2/3.2.5> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU003/3.2" ;
+    skos:prefLabel "sich in einer Bücherei orientieren," .
+
+<DEU003/3.2/3.2.6> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU003/3.2" ;
+    skos:prefLabel "Angebote in Zeitungen und Zeitschriften, in Hörfunk und Fernsehen, auf Ton- und Bildträgern sowie im Netz kennen, nutzen und begründet auswählen,",
+        "Informationen in Druck - und – wenn vorhanden - elektronischen Medien suchen,",
+        "die eigene Leseerfahrung beschreiben und einschätzen." .
+
+<DEU003/3.3> a skos:Concept ;
+    skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU003" ;
+    skos:prefLabel "Texte erschließen" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004dp/DEU003/3.3/3.3.1",
+        "https://example.com/iqb/bista2004dp/DEU003/3.3/3.3.10",
+        "https://example.com/iqb/bista2004dp/DEU003/3.3/3.3.11",
+        "https://example.com/iqb/bista2004dp/DEU003/3.3/3.3.2",
+        "https://example.com/iqb/bista2004dp/DEU003/3.3/3.3.3",
+        "https://example.com/iqb/bista2004dp/DEU003/3.3/3.3.4",
+        "https://example.com/iqb/bista2004dp/DEU003/3.3/3.3.5",
+        "https://example.com/iqb/bista2004dp/DEU003/3.3/3.3.6",
+        "https://example.com/iqb/bista2004dp/DEU003/3.3/3.3.7",
+        "https://example.com/iqb/bista2004dp/DEU003/3.3/3.3.8",
+        "https://example.com/iqb/bista2004dp/DEU003/3.3/3.3.9" .
+
+<DEU003/3.3/3.3.1> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU003/3.3" ;
+    skos:prefLabel "Verfahren zur ersten Orientierung über einen Text nutzen," .
+
+<DEU003/3.3/3.3.10> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU003/3.3" ;
+    skos:prefLabel "Unterschiede und Gemeinsamkeiten von Texten finden," .
+
+<DEU003/3.3/3.3.11> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU003/3.3" ;
+    skos:prefLabel "handelnd mit Texten umgehen: z.B. illustrieren, inszenieren, umgestalten, collagieren." .
+
+<DEU003/3.3/3.3.2> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU003/3.3" ;
+    skos:prefLabel "gezielt einzelne Informationen suchen," .
+
+<DEU003/3.3/3.3.3> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU003/3.3" ;
+    skos:prefLabel "Texte genau lesen," .
+
+<DEU003/3.3/3.3.4> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU003/3.3" ;
+    skos:prefLabel "bei Verständnisschwierigkeiten Verstehenshilfen anwenden: nachfragen, Wörter nachschlagen, Text zerlegen," .
+
+<DEU003/3.3/3.3.5> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU003/3.3" ;
+    skos:prefLabel "Texte mit eigenen Worten wiedergeben," .
+
+<DEU003/3.3/3.3.6> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU003/3.3" ;
+    skos:prefLabel "zentrale Aussagen eines Textes erfassen und wiedergeben," .
+
+<DEU003/3.3/3.3.7> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU003/3.3" ;
+    skos:prefLabel "Aussagen mit Textstellen belegen," .
+
+<DEU003/3.3/3.3.8> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU003/3.3" ;
+    skos:prefLabel "eigene Gedanken zu Texten entwickeln, zu Texten Stellung nehmen und mit anderen über Texte sprechen," .
+
+<DEU003/3.3/3.3.9> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU003/3.3" ;
+    skos:prefLabel "bei der Beschäftigung mit literarischen Texten Sensibilität und Verständnis für Gedanken und Gefühle und zwischenmenschliche Beziehungen zeigen," .
+
+<DEU003/3.4> a skos:Concept ;
+    skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU003" ;
+    skos:prefLabel "Texte präsentieren" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004dp/DEU003/3.4/3.4.1",
+        "https://example.com/iqb/bista2004dp/DEU003/3.4/3.4.2",
+        "https://example.com/iqb/bista2004dp/DEU003/3.4/3.4.3",
+        "https://example.com/iqb/bista2004dp/DEU003/3.4/3.4.4",
+        "https://example.com/iqb/bista2004dp/DEU003/3.4/3.4.5" .
+
+<DEU003/3.4/3.4.1> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU003/3.4" ;
+    skos:prefLabel "selbstgewählte Texte zum Vorlesen vorbereiten und sinngestaltend vorlesen," .
+
+<DEU003/3.4/3.4.2> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU003/3.4" ;
+    skos:prefLabel "Geschichten, Gedichte und Dialoge vortragen, auch auswendig," .
+
+<DEU003/3.4/3.4.3> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU003/3.4" ;
+    skos:prefLabel "ein Kinderbuch selbst auswählen und vorstellen," .
+
+<DEU003/3.4/3.4.4> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU003/3.4" ;
+    skos:prefLabel "verschiedene Medien für Präsentationen nutzen," .
+
+<DEU003/3.4/3.4.5> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU003/3.4" ;
+    skos:prefLabel "bei Lesungen und Aufführungen mitwirken." .
+
+<DEU004> a skos:Concept ;
+    skos:definition "Anknüpfend an ihre Spracherfahrungen entwickeln die Kinder ihr Sprachgefühl weiter und gehen bewusster mit Sprache um. In altersgemäßen, lebensnahen Sprach- und Kommunikationssituationen erfahren und untersuchen die Kinder die Sprache in ihren Verwendungszusammenhängen und gehen dabei auf die inhaltliche Dimension und die Leistung von Wörtern, Sätzen und Texten ein. Sie sprechen auch über Erfahrungen mit anderen Sprachen. Sie verfügen über ein Grundwissen an grammatischen Strukturen, einen Grundbestand an Begriffen und Verfahren zum Untersuchen von Sprache." ;
+    skos:prefLabel "Sprache und Sprachgebrauch untersuchen" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004dp/DEU004/4.1",
+        "https://example.com/iqb/bista2004dp/DEU004/4.2",
+        "https://example.com/iqb/bista2004dp/DEU004/4.3",
+        "https://example.com/iqb/bista2004dp/DEU004/4.4" .
+
+<DEU004/4.1> a skos:Concept ;
+    skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU004" ;
+    skos:prefLabel "Sprachliche Verständigung untersuchen" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004dp/DEU004/4.1/4.1.1",
+        "https://example.com/iqb/bista2004dp/DEU004/4.1/4.1.2",
+        "https://example.com/iqb/bista2004dp/DEU004/4.1/4.1.3",
+        "https://example.com/iqb/bista2004dp/DEU004/4.1/4.1.4" .
+
+<DEU004/4.1/4.1.1> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU004/4.1" ;
+    skos:prefLabel "Beziehung zwischen Absicht – sprachlichen Merkmalen – Wirkungen untersuchen," .
+
+<DEU004/4.1/4.1.2> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU004/4.1" ;
+    skos:prefLabel "Unterschiede von gesprochener und geschriebener Sprache kennen," .
+
+<DEU004/4.1/4.1.3> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU004/4.1" ;
+    skos:prefLabel "Rollen von Sprecher/Schreiber – Hörer/Leser untersuchen und nutzen," .
+
+<DEU004/4.1/4.1.4> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU004/4.1" ;
+    skos:prefLabel "über Verstehens- und Verständigungsprobleme sprechen." .
+
+<DEU004/4.2> a skos:Concept ;
+    skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU004" ;
+    skos:prefLabel "An Wörtern, Sätzen, Texten arbeiten" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004dp/DEU004/4.2/4.2.1",
+        "https://example.com/iqb/bista2004dp/DEU004/4.2/4.2.2",
+        "https://example.com/iqb/bista2004dp/DEU004/4.2/4.2.3",
+        "https://example.com/iqb/bista2004dp/DEU004/4.2/4.2.4",
+        "https://example.com/iqb/bista2004dp/DEU004/4.2/4.2.5" .
+
+<DEU004/4.2/4.2.1> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU004/4.2" ;
+    skos:prefLabel "Wörter strukturieren und Möglichkeiten der Wortbildung kennen," .
+
+<DEU004/4.2/4.2.2> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU004/4.2" ;
+    skos:prefLabel "Wörter sammeln und ordnen," .
+
+<DEU004/4.2/4.2.3> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU004/4.2" ;
+    skos:prefLabel "sprachliche Operationen nutzen: umstellen, ersetzen, ergänzen, weglassen," .
+
+<DEU004/4.2/4.2.4> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU004/4.2" ;
+    skos:prefLabel "die Textproduktion und das Textverständnis durch die Anwendung von sprachlichen Operationen unterstützen," .
+
+<DEU004/4.2/4.2.5> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU004/4.2" ;
+    skos:prefLabel "mit Sprache experimentell und spielerisch umgehen." .
+
+<DEU004/4.3> a skos:Concept ;
+    skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU004" ;
+    skos:prefLabel "Gemeinsamkeiten und Unterschiede von Sprachen entdecken" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004dp/DEU004/4.3/4.3.1",
+        "https://example.com/iqb/bista2004dp/DEU004/4.3/4.3.2" .
+
+<DEU004/4.3/4.3.1> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU004/4.3" ;
+    skos:prefLabel "Deutsch – Fremdsprache, Dialekt – Standardsprache; Deutsch – Muttersprachen der Kinder mit Migrationshintergrund; Deutsch – Nachbarsprachen," .
+
+<DEU004/4.3/4.3.2> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU004/4.3" ;
+    skos:prefLabel "gebräuchliche Fremdwörter untersuchen." .
+
+<DEU004/4.4> a skos:Concept ;
+    skos:definition "Es geht hier in erster Linie um die mit Begriffen und Strukturen gemeinten Kategorien. Die Bezeichnungen dafür können unterschiedlich sein." ;
+    skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU004" ;
+    skos:prefLabel "Grundlegende sprachliche Strukturen und Begriffe kennen und verwenden" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004dp/DEU004/4.4/4.4.1" .
+
+<DEU004/4.4/4.4.1> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU004/4.4" ;
+    skos:prefLabel "Grundlegende sprachliche Strukturen und Begriffe" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004dp/DEU004/4.4/4.4.1/4.4.1.1",
+        "https://example.com/iqb/bista2004dp/DEU004/4.4/4.4.1/4.4.1.2" .
+
+<DEU004/4.4/4.4.1/4.4.1.1> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU004/4.4/4.4.1" ;
+    skos:prefLabel "Wort" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004dp/DEU004/4.4/4.4.1/4.4.1.1/4.4.1.1.1",
+        "https://example.com/iqb/bista2004dp/DEU004/4.4/4.4.1/4.4.1.1/4.4.1.1.2",
+        "https://example.com/iqb/bista2004dp/DEU004/4.4/4.4.1/4.4.1.1/4.4.1.1.3",
+        "https://example.com/iqb/bista2004dp/DEU004/4.4/4.4.1/4.4.1.1/4.4.1.1.4",
+        "https://example.com/iqb/bista2004dp/DEU004/4.4/4.4.1/4.4.1.1/4.4.1.1.5",
+        "https://example.com/iqb/bista2004dp/DEU004/4.4/4.4.1/4.4.1.1/4.4.1.1.6",
+        "https://example.com/iqb/bista2004dp/DEU004/4.4/4.4.1/4.4.1.1/4.4.1.1.7",
+        "https://example.com/iqb/bista2004dp/DEU004/4.4/4.4.1/4.4.1.1/4.4.1.1.8" .
+
+<DEU004/4.4/4.4.1/4.4.1.1/4.4.1.1.1> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU004/4.4/4.4.1/4.4.1.1" ;
+    skos:prefLabel "Buchstabe, Laut, Selbstlaut, Mitlaut, Umlaut, Silbe, Alphabet" .
+
+<DEU004/4.4/4.4.1/4.4.1.1/4.4.1.1.2> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU004/4.4/4.4.1/4.4.1.1" ;
+    skos:prefLabel "Wortfamilie, Wortstamm, Wortbaustein, Wortfeld, Wortart" .
+
+<DEU004/4.4/4.4.1/4.4.1.1/4.4.1.1.3> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU004/4.4/4.4.1/4.4.1.1" ;
+    skos:prefLabel "Nomen: Einzahl, Mehrzahl, Fall, Geschlecht" .
+
+<DEU004/4.4/4.4.1/4.4.1.1/4.4.1.1.4> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU004/4.4/4.4.1/4.4.1.1" ;
+    skos:prefLabel "Verb: Grundform, gebeugte Form / Zeitformen: Gegenwart, Vergangenheitsformen" .
+
+<DEU004/4.4/4.4.1/4.4.1.1/4.4.1.1.5> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU004/4.4/4.4.1/4.4.1.1" ;
+    skos:prefLabel "Artikel: bestimmter Artikel, unbestimmter Artikel" .
+
+<DEU004/4.4/4.4.1/4.4.1.1/4.4.1.1.6> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU004/4.4/4.4.1/4.4.1.1" ;
+    skos:prefLabel "Adjektiv: Grundform, Vergleichsstufen" .
+
+<DEU004/4.4/4.4.1/4.4.1.1/4.4.1.1.7> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU004/4.4/4.4.1/4.4.1.1" ;
+    skos:prefLabel "Pronomen" .
+
+<DEU004/4.4/4.4.1/4.4.1.1/4.4.1.1.8> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU004/4.4/4.4.1/4.4.1.1" ;
+    skos:prefLabel "andere Wörter (alle hier nicht kategorisierten Wörter gehören zu dieser Restkategorie)" .
+
+<DEU004/4.4/4.4.1/4.4.1.2> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU004/4.4/4.4.1" ;
+    skos:prefLabel "Satz" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004dp/DEU004/4.4/4.4.1/4.4.1.2/4.4.1.2.1",
+        "https://example.com/iqb/bista2004dp/DEU004/4.4/4.4.1/4.4.1.2/4.4.1.2.2",
+        "https://example.com/iqb/bista2004dp/DEU004/4.4/4.4.1/4.4.1.2/4.4.1.2.3",
+        "https://example.com/iqb/bista2004dp/DEU004/4.4/4.4.1/4.4.1.2/4.4.1.2.4",
+        "https://example.com/iqb/bista2004dp/DEU004/4.4/4.4.1/4.4.1.2/4.4.1.2.5" .
+
+<DEU004/4.4/4.4.1/4.4.1.2/4.4.1.2.1> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU004/4.4/4.4.1/4.4.1.2" ;
+    skos:prefLabel "Satzzeichen: Punkt, Komma, Fragezeichen, Ausrufezeichen, Doppelpunkt, Redezeichen / Satzart: Aussage-, Frage-, Ausrufesatz / wörtliche Rede" .
+
+<DEU004/4.4/4.4.1/4.4.1.2/4.4.1.2.2> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU004/4.4/4.4.1/4.4.1.2" ;
+    skos:prefLabel "Subjekt" .
+
+<DEU004/4.4/4.4.1/4.4.1.2/4.4.1.2.3> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU004/4.4/4.4.1/4.4.1.2" ;
+    skos:prefLabel "Prädikat/Satzkern" .
+
+<DEU004/4.4/4.4.1/4.4.1.2/4.4.1.2.4> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU004/4.4/4.4.1/4.4.1.2" ;
+    skos:prefLabel "Ergänzungen: Satzglied; einteilige, mehrteilige Ergänzung" .
+
+<DEU004/4.4/4.4.1/4.4.1.2/4.4.1.2.5> skos:hasTopConcept "https://example.com/iqb/bista2004dp/DEU004/4.4/4.4.1/4.4.1.2" ;
+    skos:prefLabel "Vergangenheit, Gegenwart, Zukunft (als Zeitstufen)" .
+
