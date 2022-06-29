@@ -1,694 +1,817 @@
-@base <https://example.com/iqb/bista2004dp/> .
+@base <https://w3id.org/iqb//bista04/bista04-de-p/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<DEU001/1.1/1.1.1> a skos:Concept ;
-    skos:broader <DEU001/1.1> ;
+<DEU001/0859a9d1-7c32-433c-be2b-b7d263f9df62> a skos:Concept ;
+    skos:broader <DEU001/36f73e22-26d9-4a6a-babc-be10c914cd77> ;
     skos:inScheme <> ;
-    skos:prefLabel "sich an Gesprächen beteiligen,"@de .
-
-<DEU001/1.1/1.1.2> a skos:Concept ;
-    skos:broader <DEU001/1.1> ;
-    skos:inScheme <> ;
-    skos:prefLabel "gemeinsam entwickelte Gesprächsregeln beachten: z.B. andere zu Ende sprechen lassen, auf Gesprächsbeiträge anderer eingehen, beim Thema bleiben,"@de .
-
-<DEU001/1.1/1.1.3> a skos:Concept ;
-    skos:broader <DEU001/1.1> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Anliegen und Konflikte gemeinsam mit anderen diskutieren und klären."@de .
-
-<DEU001/1.2/1.2.1> a skos:Concept ;
-    skos:broader <DEU001/1.2> ;
-    skos:inScheme <> ;
-    skos:prefLabel "an der gesprochenen Standardsprache orientiert und artikuliert sprechen,"@de .
-
-<DEU001/1.2/1.2.2> a skos:Concept ;
-    skos:broader <DEU001/1.2> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Wirkungen der Redeweise kennen und beachten,"@de .
-
-<DEU001/1.2/1.2.3> a skos:Concept ;
-    skos:broader <DEU001/1.2> ;
-    skos:inScheme <> ;
-    skos:prefLabel "funktionsangemessen sprechen: erzählen, informieren, argumentieren, appellieren,"@de .
-
-<DEU001/1.2/1.2.4> a skos:Concept ;
-    skos:broader <DEU001/1.2> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Sprechbeiträge und Gespräche situationsangemessen planen."@de .
-
-<DEU001/1.3/1.3.1> a skos:Concept ;
-    skos:broader <DEU001/1.3> ;
-    skos:inScheme <> ;
+    skos:notation "1.3.1" ;
     skos:prefLabel "Inhalte zuhörend verstehen,"@de .
 
-<DEU001/1.3/1.3.2> a skos:Concept ;
-    skos:broader <DEU001/1.3> ;
+<DEU001/3793212d-b99d-40d6-a56e-439ae14b0dac> a skos:Concept ;
+    skos:broader <DEU001/1d6f82de-b5ad-4493-850c-d6920a2dc5bb> ;
     skos:inScheme <> ;
-    skos:prefLabel "gezielt nachfragen,"@de .
+    skos:notation "1.2.3" ;
+    skos:prefLabel "funktionsangemessen sprechen: erzählen, informieren, argumentieren, appellieren,"@de .
 
-<DEU001/1.3/1.3.3> a skos:Concept ;
-    skos:broader <DEU001/1.3> ;
+<DEU001/42a54a34-5347-4e3b-b30a-b70b49112b72> a skos:Concept ;
+    skos:broader <DEU001/8bb9c306-04b6-41eb-b2a2-358fbb8cfb70> ;
     skos:inScheme <> ;
-    skos:prefLabel "Verstehen und Nicht-Verstehen zum Ausdruck bringen."@de .
+    skos:notation "1.1.2" ;
+    skos:prefLabel "gemeinsam entwickelte Gesprächsregeln beachten: z.B. andere zu Ende sprechen lassen, auf Gesprächsbeiträge anderer eingehen, beim Thema bleiben,"@de .
 
-<DEU001/1.4/1.4.1> a skos:Concept ;
-    skos:broader <DEU001/1.4> ;
+<DEU001/43b97621-75ab-4cfa-ba4a-66bd529c8b41> a skos:Concept ;
+    skos:broader <DEU001/1d6f82de-b5ad-4493-850c-d6920a2dc5bb> ;
     skos:inScheme <> ;
-    skos:prefLabel "Perspektiven einnehmen,"@de .
+    skos:notation "1.2.1" ;
+    skos:prefLabel "an der gesprochenen Standardsprache orientiert und artikuliert sprechen,"@de .
 
-<DEU001/1.4/1.4.2> a skos:Concept ;
-    skos:broader <DEU001/1.4> ;
+<DEU001/53e3100d-9814-4c48-ae36-bd97d58fdd3e> a skos:Concept ;
+    skos:broader <DEU001/25122674-0b8c-40b5-b748-36ecca6fe898> ;
     skos:inScheme <> ;
-    skos:prefLabel "sich in eine Rolle hineinversetzen und sie gestalten,"@de .
-
-<DEU001/1.4/1.4.3> a skos:Concept ;
-    skos:broader <DEU001/1.4> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Situationen in verschiedenen Spielformen szenisch entfalten."@de .
-
-<DEU001/1.5/1.5.1> a skos:Concept ;
-    skos:broader <DEU001/1.5> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Beobachtungen wiedergeben,"@de .
-
-<DEU001/1.5/1.5.2> a skos:Concept ;
-    skos:broader <DEU001/1.5> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Sachverhalte beschreiben,"@de .
-
-<DEU001/1.5/1.5.3> a skos:Concept ;
-    skos:broader <DEU001/1.5> ;
-    skos:inScheme <> ;
+    skos:notation "1.5.3" ;
     skos:prefLabel "Begründungen und Erklärungen geben,"@de .
 
-<DEU001/1.5/1.5.4> a skos:Concept ;
-    skos:broader <DEU001/1.5> ;
+<DEU001/552d5f62-0b0f-4676-90f3-7e877cd2e20c> a skos:Concept ;
+    skos:broader <DEU001/25122674-0b8c-40b5-b748-36ecca6fe898> ;
     skos:inScheme <> ;
+    skos:notation "1.5.4" ;
     skos:prefLabel "Lernergebnisse präsentieren und dabei Fachbegriffe benutzen,"@de .
 
-<DEU001/1.5/1.5.5> a skos:Concept ;
-    skos:broader <DEU001/1.5> ;
+<DEU001/5ce66845-84b7-439b-8ef8-b9d3c2af4df3> a skos:Concept ;
+    skos:broader <DEU001/8bb9c306-04b6-41eb-b2a2-358fbb8cfb70> ;
     skos:inScheme <> ;
+    skos:notation "1.1.3" ;
+    skos:prefLabel "Anliegen und Konflikte gemeinsam mit anderen diskutieren und klären."@de .
+
+<DEU001/6aeb4774-9315-4843-85d4-fad73e64e4bf> a skos:Concept ;
+    skos:broader <DEU001/36f73e22-26d9-4a6a-babc-be10c914cd77> ;
+    skos:inScheme <> ;
+    skos:notation "1.3.2" ;
+    skos:prefLabel "gezielt nachfragen,"@de .
+
+<DEU001/7498d7eb-2928-4f5e-a6ab-e38df47ccb3b> a skos:Concept ;
+    skos:broader <DEU001/36f73e22-26d9-4a6a-babc-be10c914cd77> ;
+    skos:inScheme <> ;
+    skos:notation "1.3.3" ;
+    skos:prefLabel "Verstehen und Nicht-Verstehen zum Ausdruck bringen."@de .
+
+<DEU001/7a603ce6-85de-43af-a04c-183437270fa6> a skos:Concept ;
+    skos:broader <DEU001/263c0963-a8d3-4aa2-9bda-df84e4dd1e92> ;
+    skos:inScheme <> ;
+    skos:notation "1.4.3" ;
+    skos:prefLabel "Situationen in verschiedenen Spielformen szenisch entfalten."@de .
+
+<DEU001/9e67c852-9713-411e-9cd0-4db6fe3756ac> a skos:Concept ;
+    skos:broader <DEU001/25122674-0b8c-40b5-b748-36ecca6fe898> ;
+    skos:inScheme <> ;
+    skos:notation "1.5.5" ;
     skos:prefLabel "über Lernerfahrungen sprechen und andere in ihren Lernprozessen unterstützen."@de .
 
-<DEU002/2.1/2.1.1> a skos:Concept ;
-    skos:broader <DEU002/2.1> ;
+<DEU001/b4ac7e38-f237-42d8-b5ec-adf7be96c12b> a skos:Concept ;
+    skos:broader <DEU001/263c0963-a8d3-4aa2-9bda-df84e4dd1e92> ;
     skos:inScheme <> ;
-    skos:prefLabel "eine gut lesbare Handschrift flüssig schreiben,"@de .
+    skos:notation "1.4.2" ;
+    skos:prefLabel "sich in eine Rolle hineinversetzen und sie gestalten,"@de .
 
-<DEU002/2.1/2.1.2> a skos:Concept ;
-    skos:broader <DEU002/2.1> ;
+<DEU001/c686aec5-4630-4bf6-bb73-ea3e86e2f8f5> a skos:Concept ;
+    skos:broader <DEU001/1d6f82de-b5ad-4493-850c-d6920a2dc5bb> ;
     skos:inScheme <> ;
-    skos:prefLabel "Texte zweckmäßig und übersichtlich gestalten,"@de .
+    skos:notation "1.2.2" ;
+    skos:prefLabel "Wirkungen der Redeweise kennen und beachten,"@de .
 
-<DEU002/2.1/2.1.3> a skos:Concept ;
-    skos:broader <DEU002/2.1> ;
+<DEU001/c68b9d2f-b063-4c28-84de-f8f5a60ec29e> a skos:Concept ;
+    skos:broader <DEU001/263c0963-a8d3-4aa2-9bda-df84e4dd1e92> ;
     skos:inScheme <> ;
-    skos:prefLabel "den PC – wenn vorhanden - zum Schreiben verwenden und für Textgestaltung nutzen."@de .
+    skos:notation "1.4.1" ;
+    skos:prefLabel "Perspektiven einnehmen,"@de .
 
-<DEU002/2.2/2.2.1> a skos:Concept ;
-    skos:broader <DEU002/2.2> ;
+<DEU001/c6a73b7b-3f8d-4b4f-824e-49fd8d04805b> a skos:Concept ;
+    skos:broader <DEU001/25122674-0b8c-40b5-b748-36ecca6fe898> ;
     skos:inScheme <> ;
-    skos:prefLabel "geübte, rechtschreibwichtige Wörter normgerecht schreiben,"@de .
+    skos:notation "1.5.2" ;
+    skos:prefLabel "Sachverhalte beschreiben,"@de .
 
-<DEU002/2.2/2.2.2> a skos:Concept ;
-    skos:broader <DEU002/2.2> ;
+<DEU001/c99cc2b8-8559-4b59-a974-79b7187201b0> a skos:Concept ;
+    skos:broader <DEU001/1d6f82de-b5ad-4493-850c-d6920a2dc5bb> ;
     skos:inScheme <> ;
+    skos:notation "1.2.4" ;
+    skos:prefLabel "Sprechbeiträge und Gespräche situationsangemessen planen."@de .
+
+<DEU001/db747fea-0bc8-4c7e-800d-e934620d5be2> a skos:Concept ;
+    skos:broader <DEU001/25122674-0b8c-40b5-b748-36ecca6fe898> ;
+    skos:inScheme <> ;
+    skos:notation "1.5.1" ;
+    skos:prefLabel "Beobachtungen wiedergeben,"@de .
+
+<DEU001/f9571d59-8391-49c8-920e-368377d47121> a skos:Concept ;
+    skos:broader <DEU001/8bb9c306-04b6-41eb-b2a2-358fbb8cfb70> ;
+    skos:inScheme <> ;
+    skos:notation "1.1.1" ;
+    skos:prefLabel "sich an Gesprächen beteiligen,"@de .
+
+<DEU002/16b29209-0bfb-4330-b468-b6386ad49916> a skos:Concept ;
+    skos:broader <DEU002/a9639ed2-c643-4d09-b864-acb8492ad235> ;
+    skos:inScheme <> ;
+    skos:notation "2.2.2" ;
     skos:prefLabel "Rechtschreibstrategien verwenden: Mitsprechen, Ableiten, Einprägen,"@de .
 
-<DEU002/2.2/2.2.3> a skos:Concept ;
-    skos:broader <DEU002/2.2> ;
+<DEU002/28502e8e-9131-4fff-964f-c14b8cccada6> a skos:Concept ;
+    skos:broader <DEU002/00962b8f-30ef-40d5-af30-7b4047f98e96> ;
     skos:inScheme <> ;
-    skos:prefLabel "Zeichensetzung beachten: Punkt, Fragezeichen, Ausrufezeichen, Zeichen bei wörtlicher Rede,"@de .
-
-<DEU002/2.2/2.2.4> a skos:Concept ;
-    skos:broader <DEU002/2.2> ;
-    skos:inScheme <> ;
-    skos:prefLabel "über Fehlersensibilität und Rechtschreibgespür verfügen,"@de .
-
-<DEU002/2.2/2.2.5/2.2.5.1> a skos:Concept ;
-    skos:broader <DEU002/2.2/2.2.5> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Wörterbuch nutzen,"@de .
-
-<DEU002/2.2/2.2.5/2.2.5.2> a skos:Concept ;
-    skos:broader <DEU002/2.2/2.2.5> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Rechtschreibhilfen des Computers kritisch nutzen,"@de .
-
-<DEU002/2.2/2.2.6/2.2.6.1> a skos:Concept ;
-    skos:broader <DEU002/2.2/2.2.6> ;
-    skos:inScheme <> ;
-    skos:prefLabel "methodisch sinnvoll abschreiben,"@de .
-
-<DEU002/2.2/2.2.6/2.2.6.2> a skos:Concept ;
-    skos:broader <DEU002/2.2/2.2.6> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Übungsformen selbstständig nutzen,"@de .
-
-<DEU002/2.2/2.2.6/2.2.6.3> a skos:Concept ;
-    skos:broader <DEU002/2.2/2.2.6> ;
-    skos:inScheme <> ;
+    skos:notation "2.2.6.3" ;
     skos:prefLabel "Texte auf orthographische Richtigkeit überprüfen und korrigieren."@de .
 
-<DEU002/2.3/2.3.1/2.3.5.1> a skos:Concept ;
-    skos:broader <DEU002/2.3/2.3.1> ;
+<DEU002/2e0005f5-a0d4-4c8f-a236-26de038e2f9c> a skos:Concept ;
+    skos:broader <DEU002/a1eef693-2b16-493b-a166-951254cb5f66> ;
     skos:inScheme <> ;
-    skos:prefLabel "Schreibabsicht, Schreibsituation, Adressaten und Verwendungszusammenhang klären,"@de .
-
-<DEU002/2.3/2.3.1/2.3.5.2> a skos:Concept ;
-    skos:broader <DEU002/2.3/2.3.1> ;
-    skos:inScheme <> ;
-    skos:prefLabel "sprachliche und gestalterische Mittel und Ideen sammeln: Wörter und Wortfelder, Formulierungen und Textmodelle."@de .
-
-<DEU002/2.3/2.3.2/2.3.5.1> a skos:Concept ;
-    skos:broader <DEU002/2.3/2.3.2> ;
-    skos:inScheme <> ;
+    skos:notation "2.3.5.1" ;
     skos:prefLabel "verständlich, strukturiert, adressaten- und funktionsgerecht schreiben: Erlebtes und Erfundenes; Gedanken und Gefühle; Bitten, Wünsche, Aufforderungen und Vereinbarungen; Erfahrungen und Sachverhalte,"@de .
 
-<DEU002/2.3/2.3.2/2.3.5.2> a skos:Concept ;
-    skos:broader <DEU002/2.3/2.3.2> ;
+<DEU002/43012326-3f6c-4fd9-84c0-c0e89cf65286> a skos:Concept ;
+    skos:broader <DEU002/a9639ed2-c643-4d09-b864-acb8492ad235> ;
     skos:inScheme <> ;
-    skos:prefLabel "Lernergebnisse geordnet festhalten und auch für eine Veröffentlichung verwenden,"@de .
+    skos:notation "2.2.4" ;
+    skos:prefLabel "über Fehlersensibilität und Rechtschreibgespür verfügen,"@de .
 
-<DEU002/2.3/2.3.2/2.3.5.3> a skos:Concept ;
-    skos:broader <DEU002/2.3/2.3.2> ;
+<DEU002/4b57155d-59aa-41c8-8443-b595c513b3be> a skos:Concept ;
+    skos:broader <DEU002/17ef852f-09cb-4b66-94f1-00c6a5fb7cbc> ;
     skos:inScheme <> ;
+    skos:notation "2.3.5.1" ;
+    skos:prefLabel "Schreibabsicht, Schreibsituation, Adressaten und Verwendungszusammenhang klären,"@de .
+
+<DEU002/623a1cc3-5189-428b-a7d7-597a00b22019> a skos:Concept ;
+    skos:broader <DEU002/e29190d5-c6e3-45fd-a6f2-42cb4c087cbe> ;
+    skos:inScheme <> ;
+    skos:notation "2.1.2" ;
+    skos:prefLabel "Texte zweckmäßig und übersichtlich gestalten,"@de .
+
+<DEU002/63394391-0f67-4785-831a-eda7ada208ed> a skos:Concept ;
+    skos:broader <DEU002/a1eef693-2b16-493b-a166-951254cb5f66> ;
+    skos:inScheme <> ;
+    skos:notation "2.3.5.3" ;
     skos:prefLabel "nach Anregungen (Texte, Bilder, Musik) eigene Texte schreiben."@de .
 
-<DEU002/2.3/2.3.3/2.3.5.1> a skos:Concept ;
-    skos:broader <DEU002/2.3/2.3.3> ;
+<DEU002/6de0de8e-7231-402c-af85-ff4d48b54a44> a skos:Concept ;
+    skos:broader <DEU002/a1eef693-2b16-493b-a166-951254cb5f66> ;
     skos:inScheme <> ;
-    skos:prefLabel "Texte an der Schreibaufgabe überprüfen,"@de .
+    skos:notation "2.3.5.2" ;
+    skos:prefLabel "Lernergebnisse geordnet festhalten und auch für eine Veröffentlichung verwenden,"@de .
 
-<DEU002/2.3/2.3.3/2.3.5.2> a skos:Concept ;
-    skos:broader <DEU002/2.3/2.3.3> ;
+<DEU002/90e5d919-fedf-49e7-898d-067a92f182e9> a skos:Concept ;
+    skos:broader <DEU002/e29190d5-c6e3-45fd-a6f2-42cb4c087cbe> ;
     skos:inScheme <> ;
-    skos:prefLabel "Texte auf Verständlichkeit und Wirkung überprüfen,"@de .
+    skos:notation "2.1.3" ;
+    skos:prefLabel "den PC – wenn vorhanden - zum Schreiben verwenden und für Textgestaltung nutzen."@de .
 
-<DEU002/2.3/2.3.3/2.3.5.3> a skos:Concept ;
-    skos:broader <DEU002/2.3/2.3.3> ;
+<DEU002/94c5e35f-e22a-438d-bf13-0c3b122946e6> a skos:Concept ;
+    skos:broader <DEU002/00962b8f-30ef-40d5-af30-7b4047f98e96> ;
     skos:inScheme <> ;
+    skos:notation "2.2.6.1" ;
+    skos:prefLabel "methodisch sinnvoll abschreiben,"@de .
+
+<DEU002/9af47a61-d830-4696-9f8b-706f0be04d58> a skos:Concept ;
+    skos:broader <DEU002/a9639ed2-c643-4d09-b864-acb8492ad235> ;
+    skos:inScheme <> ;
+    skos:notation "2.2.1" ;
+    skos:prefLabel "geübte, rechtschreibwichtige Wörter normgerecht schreiben,"@de .
+
+<DEU002/9d55db03-0a1d-4119-90cd-e39223a67395> a skos:Concept ;
+    skos:broader <DEU002/17ef852f-09cb-4b66-94f1-00c6a5fb7cbc> ;
+    skos:inScheme <> ;
+    skos:notation "2.3.5.2" ;
+    skos:prefLabel "sprachliche und gestalterische Mittel und Ideen sammeln: Wörter und Wortfelder, Formulierungen und Textmodelle."@de .
+
+<DEU002/acffd643-6eee-49de-a010-c9935a6a45f2> a skos:Concept ;
+    skos:broader <DEU002/107fb069-6b35-4b21-b3ab-09e2da84566d> ;
+    skos:inScheme <> ;
+    skos:notation "2.2.5.1" ;
+    skos:prefLabel "Wörterbuch nutzen,"@de .
+
+<DEU002/ad3dfb8f-1d8a-4ad0-85df-59be3104c4b6> a skos:Concept ;
+    skos:broader <DEU002/e29190d5-c6e3-45fd-a6f2-42cb4c087cbe> ;
+    skos:inScheme <> ;
+    skos:notation "2.1.1" ;
+    skos:prefLabel "eine gut lesbare Handschrift flüssig schreiben,"@de .
+
+<DEU002/ae48fa96-1af6-4591-b539-1621ecc50748> a skos:Concept ;
+    skos:broader <DEU002/bbc53528-2ae2-4448-abc6-2f03d0d057a3> ;
+    skos:inScheme <> ;
+    skos:notation "2.3.5.3" ;
     skos:prefLabel "Texte in Bezug auf die äußere und sprachliche Gestaltung und auf die sprachliche Richtigkeit hin optimieren,"@de .
 
-<DEU002/2.3/2.3.3/2.3.5.4> a skos:Concept ;
-    skos:broader <DEU002/2.3/2.3.3> ;
+<DEU002/b303e6f6-4ec4-48bc-9a3c-164349d07ee5> a skos:Concept ;
+    skos:broader <DEU002/bbc53528-2ae2-4448-abc6-2f03d0d057a3> ;
     skos:inScheme <> ;
+    skos:notation "2.3.5.2" ;
+    skos:prefLabel "Texte auf Verständlichkeit und Wirkung überprüfen,"@de .
+
+<DEU002/ba6e1637-1bcc-4821-8a6c-be593feabc91> a skos:Concept ;
+    skos:broader <DEU002/107fb069-6b35-4b21-b3ab-09e2da84566d> ;
+    skos:inScheme <> ;
+    skos:notation "2.2.5.2" ;
+    skos:prefLabel "Rechtschreibhilfen des Computers kritisch nutzen,"@de .
+
+<DEU002/c987c913-0853-4012-82ec-a6472c034830> a skos:Concept ;
+    skos:broader <DEU002/bbc53528-2ae2-4448-abc6-2f03d0d057a3> ;
+    skos:inScheme <> ;
+    skos:notation "2.3.5.4" ;
     skos:prefLabel "Texte für die Veröffentlichung aufbereiten und dabei auch die Schrift gestalten."@de .
 
-<DEU003/3.1/3.1.1> a skos:Concept ;
-    skos:broader <DEU003/3.1> ;
+<DEU002/e672871b-4bd2-4c4d-b55b-b1783c543ca7> a skos:Concept ;
+    skos:broader <DEU002/00962b8f-30ef-40d5-af30-7b4047f98e96> ;
     skos:inScheme <> ;
-    skos:prefLabel "altersgemäße Texte sinnverstehend lesen,"@de .
+    skos:notation "2.2.6.2" ;
+    skos:prefLabel "Übungsformen selbstständig nutzen,"@de .
 
-<DEU003/3.1/3.1.2> a skos:Concept ;
-    skos:broader <DEU003/3.1> ;
+<DEU002/e9ba5882-f370-4f38-ab41-0c722f62f6b4> a skos:Concept ;
+    skos:broader <DEU002/bbc53528-2ae2-4448-abc6-2f03d0d057a3> ;
     skos:inScheme <> ;
-    skos:prefLabel "lebendige Vorstellungen beim Lesen und Hören literarischer Texte entwickeln."@de .
+    skos:notation "2.3.5.1" ;
+    skos:prefLabel "Texte an der Schreibaufgabe überprüfen,"@de .
 
-<DEU003/3.2/3.2.1> a skos:Concept ;
-    skos:broader <DEU003/3.2> ;
+<DEU002/ee0d99c8-8267-45b2-acc1-53ff61387f61> a skos:Concept ;
+    skos:broader <DEU002/a9639ed2-c643-4d09-b864-acb8492ad235> ;
     skos:inScheme <> ;
-    skos:prefLabel "verschiedene Sorten von Sach- und Gebrauchstexten kennen,"@de .
+    skos:notation "2.2.3" ;
+    skos:prefLabel "Zeichensetzung beachten: Punkt, Fragezeichen, Ausrufezeichen, Zeichen bei wörtlicher Rede,"@de .
 
-<DEU003/3.2/3.2.2> a skos:Concept ;
-    skos:broader <DEU003/3.2> ;
+<DEU003/0b3870b2-42df-4824-9e06-8e04d76badf8> a skos:Concept ;
+    skos:broader <DEU003/91523a9d-661c-4775-b6d5-3a3f0f3193a8> ;
     skos:inScheme <> ;
-    skos:prefLabel "Erzähltexte, lyrische und szenische Texte kennen und unterscheiden,"@de .
-
-<DEU003/3.2/3.2.3> a skos:Concept ;
-    skos:broader <DEU003/3.2> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Kinderliteratur kennen: Werke, Autoren und Autorinnen, Figuren, Handlungen,"@de .
-
-<DEU003/3.2/3.2.4> a skos:Concept ;
-    skos:broader <DEU003/3.2> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Texte begründet auswählen,"@de .
-
-<DEU003/3.2/3.2.5> a skos:Concept ;
-    skos:broader <DEU003/3.2> ;
-    skos:inScheme <> ;
-    skos:prefLabel "sich in einer Bücherei orientieren,"@de .
-
-<DEU003/3.2/3.2.6> a skos:Concept ;
-    skos:broader <DEU003/3.2> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Angebote in Zeitungen und Zeitschriften, in Hörfunk und Fernsehen, auf Ton- und Bildträgern sowie im Netz kennen, nutzen und begründet auswählen,"@de,
-        "Informationen in Druck - und – wenn vorhanden - elektronischen Medien suchen,"@de,
-        "die eigene Leseerfahrung beschreiben und einschätzen."@de .
-
-<DEU003/3.3/3.3.1> a skos:Concept ;
-    skos:broader <DEU003/3.3> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Verfahren zur ersten Orientierung über einen Text nutzen,"@de .
-
-<DEU003/3.3/3.3.10> a skos:Concept ;
-    skos:broader <DEU003/3.3> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Unterschiede und Gemeinsamkeiten von Texten finden,"@de .
-
-<DEU003/3.3/3.3.11> a skos:Concept ;
-    skos:broader <DEU003/3.3> ;
-    skos:inScheme <> ;
-    skos:prefLabel "handelnd mit Texten umgehen: z.B. illustrieren, inszenieren, umgestalten, collagieren."@de .
-
-<DEU003/3.3/3.3.2> a skos:Concept ;
-    skos:broader <DEU003/3.3> ;
-    skos:inScheme <> ;
-    skos:prefLabel "gezielt einzelne Informationen suchen,"@de .
-
-<DEU003/3.3/3.3.3> a skos:Concept ;
-    skos:broader <DEU003/3.3> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Texte genau lesen,"@de .
-
-<DEU003/3.3/3.3.4> a skos:Concept ;
-    skos:broader <DEU003/3.3> ;
-    skos:inScheme <> ;
-    skos:prefLabel "bei Verständnisschwierigkeiten Verstehenshilfen anwenden: nachfragen, Wörter nachschlagen, Text zerlegen,"@de .
-
-<DEU003/3.3/3.3.5> a skos:Concept ;
-    skos:broader <DEU003/3.3> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Texte mit eigenen Worten wiedergeben,"@de .
-
-<DEU003/3.3/3.3.6> a skos:Concept ;
-    skos:broader <DEU003/3.3> ;
-    skos:inScheme <> ;
-    skos:prefLabel "zentrale Aussagen eines Textes erfassen und wiedergeben,"@de .
-
-<DEU003/3.3/3.3.7> a skos:Concept ;
-    skos:broader <DEU003/3.3> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Aussagen mit Textstellen belegen,"@de .
-
-<DEU003/3.3/3.3.8> a skos:Concept ;
-    skos:broader <DEU003/3.3> ;
-    skos:inScheme <> ;
-    skos:prefLabel "eigene Gedanken zu Texten entwickeln, zu Texten Stellung nehmen und mit anderen über Texte sprechen,"@de .
-
-<DEU003/3.3/3.3.9> a skos:Concept ;
-    skos:broader <DEU003/3.3> ;
-    skos:inScheme <> ;
-    skos:prefLabel "bei der Beschäftigung mit literarischen Texten Sensibilität und Verständnis für Gedanken und Gefühle und zwischenmenschliche Beziehungen zeigen,"@de .
-
-<DEU003/3.4/3.4.1> a skos:Concept ;
-    skos:broader <DEU003/3.4> ;
-    skos:inScheme <> ;
-    skos:prefLabel "selbstgewählte Texte zum Vorlesen vorbereiten und sinngestaltend vorlesen,"@de .
-
-<DEU003/3.4/3.4.2> a skos:Concept ;
-    skos:broader <DEU003/3.4> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Geschichten, Gedichte und Dialoge vortragen, auch auswendig,"@de .
-
-<DEU003/3.4/3.4.3> a skos:Concept ;
-    skos:broader <DEU003/3.4> ;
-    skos:inScheme <> ;
-    skos:prefLabel "ein Kinderbuch selbst auswählen und vorstellen,"@de .
-
-<DEU003/3.4/3.4.4> a skos:Concept ;
-    skos:broader <DEU003/3.4> ;
-    skos:inScheme <> ;
-    skos:prefLabel "verschiedene Medien für Präsentationen nutzen,"@de .
-
-<DEU003/3.4/3.4.5> a skos:Concept ;
-    skos:broader <DEU003/3.4> ;
-    skos:inScheme <> ;
+    skos:notation "3.4.5" ;
     skos:prefLabel "bei Lesungen und Aufführungen mitwirken."@de .
 
-<DEU004/4.1/4.1.1> a skos:Concept ;
-    skos:broader <DEU004/4.1> ;
+<DEU003/11bc0d9c-9443-4523-a25a-5cb723123886> a skos:Concept ;
+    skos:broader <DEU003/464ddc0a-9a46-4ebd-8496-6cc5ce1c33c0> ;
     skos:inScheme <> ;
-    skos:prefLabel "Beziehung zwischen Absicht – sprachlichen Merkmalen – Wirkungen untersuchen,"@de .
+    skos:notation "3.2.3" ;
+    skos:prefLabel "Kinderliteratur kennen: Werke, Autoren und Autorinnen, Figuren, Handlungen,"@de .
 
-<DEU004/4.1/4.1.2> a skos:Concept ;
-    skos:broader <DEU004/4.1> ;
+<DEU003/19867630-5850-4de9-a8d6-8dac0fa8702a> a skos:Concept ;
+    skos:broader <DEU003/464ddc0a-9a46-4ebd-8496-6cc5ce1c33c0> ;
     skos:inScheme <> ;
-    skos:prefLabel "Unterschiede von gesprochener und geschriebener Sprache kennen,"@de .
+    skos:notation "3.2.2" ;
+    skos:prefLabel "Erzähltexte, lyrische und szenische Texte kennen und unterscheiden,"@de .
 
-<DEU004/4.1/4.1.3> a skos:Concept ;
-    skos:broader <DEU004/4.1> ;
+<DEU003/26c9ff96-db30-4993-9bec-d98034dd6e30> a skos:Concept ;
+    skos:broader <DEU003/1a9eefa6-679d-499c-bd5a-9ace231198fd> ;
     skos:inScheme <> ;
-    skos:prefLabel "Rollen von Sprecher/Schreiber – Hörer/Leser untersuchen und nutzen,"@de .
+    skos:notation "3.3.3" ;
+    skos:prefLabel "Texte genau lesen,"@de .
 
-<DEU004/4.1/4.1.4> a skos:Concept ;
-    skos:broader <DEU004/4.1> ;
+<DEU003/2f91523e-7686-42bf-b770-e5c7e2a65103> a skos:Concept ;
+    skos:broader <DEU003/464ddc0a-9a46-4ebd-8496-6cc5ce1c33c0> ;
     skos:inScheme <> ;
-    skos:prefLabel "über Verstehens- und Verständigungsprobleme sprechen."@de .
+    skos:notation "3.2.5" ;
+    skos:prefLabel "sich in einer Bücherei orientieren,"@de .
 
-<DEU004/4.2/4.2.1> a skos:Concept ;
-    skos:broader <DEU004/4.2> ;
+<DEU003/33bb1128-7eed-4471-9b89-851e37d2118b> a skos:Concept ;
+    skos:broader <DEU003/464ddc0a-9a46-4ebd-8496-6cc5ce1c33c0> ;
     skos:inScheme <> ;
-    skos:prefLabel "Wörter strukturieren und Möglichkeiten der Wortbildung kennen,"@de .
+    skos:notation "3.2.1" ;
+    skos:prefLabel "verschiedene Sorten von Sach- und Gebrauchstexten kennen,"@de .
 
-<DEU004/4.2/4.2.2> a skos:Concept ;
-    skos:broader <DEU004/4.2> ;
+<DEU003/3e65c692-cf7e-4301-9991-58f223e48920> a skos:Concept ;
+    skos:broader <DEU003/1a9eefa6-679d-499c-bd5a-9ace231198fd> ;
     skos:inScheme <> ;
-    skos:prefLabel "Wörter sammeln und ordnen,"@de .
+    skos:notation "3.3.9" ;
+    skos:prefLabel "bei der Beschäftigung mit literarischen Texten Sensibilität und Verständnis für Gedanken und Gefühle und zwischenmenschliche Beziehungen zeigen,"@de .
 
-<DEU004/4.2/4.2.3> a skos:Concept ;
-    skos:broader <DEU004/4.2> ;
+<DEU003/4098e8da-def6-4bae-bbc2-adbd5ab069f7> a skos:Concept ;
+    skos:broader <DEU003/464ddc0a-9a46-4ebd-8496-6cc5ce1c33c0> ;
     skos:inScheme <> ;
+    skos:notation "3.2.4" ;
+    skos:prefLabel "Texte begründet auswählen,"@de .
+
+<DEU003/411f4381-d3da-4123-8ec3-bc74b45b800b> a skos:Concept ;
+    skos:broader <DEU003/1a9eefa6-679d-499c-bd5a-9ace231198fd> ;
+    skos:inScheme <> ;
+    skos:notation "3.3.5" ;
+    skos:prefLabel "Texte mit eigenen Worten wiedergeben,"@de .
+
+<DEU003/47a1f8ea-e2eb-484f-b59f-e89b3fa60349> a skos:Concept ;
+    skos:broader <DEU003/464ddc0a-9a46-4ebd-8496-6cc5ce1c33c0> ;
+    skos:inScheme <> ;
+    skos:notation "3.2.6" ;
+    skos:prefLabel "Angebote in Zeitungen und Zeitschriften, in Hörfunk und Fernsehen, auf Ton- und Bildträgern sowie im Netz kennen, nutzen und begründet auswählen,"@de .
+
+<DEU003/4ba9a46f-e629-4e50-91b1-dd7deb402f34> a skos:Concept ;
+    skos:broader <DEU003/1a9eefa6-679d-499c-bd5a-9ace231198fd> ;
+    skos:inScheme <> ;
+    skos:notation "3.3.10" ;
+    skos:prefLabel "Unterschiede und Gemeinsamkeiten von Texten finden,"@de .
+
+<DEU003/5902ed1a-0d95-4a64-830c-c389de3141b9> a skos:Concept ;
+    skos:broader <DEU003/1a9eefa6-679d-499c-bd5a-9ace231198fd> ;
+    skos:inScheme <> ;
+    skos:notation "3.3.4" ;
+    skos:prefLabel "bei Verständnisschwierigkeiten Verstehenshilfen anwenden: nachfragen, Wörter nachschlagen, Text zerlegen,"@de .
+
+<DEU003/5ad2a850-96a1-4875-af61-781c6c370365> a skos:Concept ;
+    skos:broader <DEU003/dfce58c7-6e20-48e5-a5cb-7dab218893fb> ;
+    skos:inScheme <> ;
+    skos:notation "3.1.1" ;
+    skos:prefLabel "altersgemäße Texte sinnverstehend lesen,"@de .
+
+<DEU003/6b4492a1-8397-456f-91bc-37277d3e84ea> a skos:Concept ;
+    skos:broader <DEU003/1a9eefa6-679d-499c-bd5a-9ace231198fd> ;
+    skos:inScheme <> ;
+    skos:notation "3.3.8" ;
+    skos:prefLabel "eigene Gedanken zu Texten entwickeln, zu Texten Stellung nehmen und mit anderen über Texte sprechen,"@de .
+
+<DEU003/6e5093c4-679d-4021-a0fd-760937c2b981> a skos:Concept ;
+    skos:broader <DEU003/91523a9d-661c-4775-b6d5-3a3f0f3193a8> ;
+    skos:inScheme <> ;
+    skos:notation "3.4.1" ;
+    skos:prefLabel "selbstgewählte Texte zum Vorlesen vorbereiten und sinngestaltend vorlesen,"@de .
+
+<DEU003/6f74943e-2349-4147-88d4-2aedad656a74> a skos:Concept ;
+    skos:broader <DEU003/dfce58c7-6e20-48e5-a5cb-7dab218893fb> ;
+    skos:inScheme <> ;
+    skos:notation "3.1.2" ;
+    skos:prefLabel "lebendige Vorstellungen beim Lesen und Hören literarischer Texte entwickeln."@de .
+
+<DEU003/7eb91d0b-a45e-4bfd-a534-6de5be7eeab3> a skos:Concept ;
+    skos:broader <DEU003/1a9eefa6-679d-499c-bd5a-9ace231198fd> ;
+    skos:inScheme <> ;
+    skos:notation "3.3.11" ;
+    skos:prefLabel "handelnd mit Texten umgehen: z.B. illustrieren, inszenieren, umgestalten, collagieren."@de .
+
+<DEU003/88b2584e-2b07-427f-9403-415ff939afd0> a skos:Concept ;
+    skos:broader <DEU003/1a9eefa6-679d-499c-bd5a-9ace231198fd> ;
+    skos:inScheme <> ;
+    skos:notation "3.3.1" ;
+    skos:prefLabel "Verfahren zur ersten Orientierung über einen Text nutzen,"@de .
+
+<DEU003/902af836-0be9-443a-a852-b0e4808cb98a> a skos:Concept ;
+    skos:broader <DEU003/1a9eefa6-679d-499c-bd5a-9ace231198fd> ;
+    skos:inScheme <> ;
+    skos:notation "3.3.7" ;
+    skos:prefLabel "Aussagen mit Textstellen belegen,"@de .
+
+<DEU003/a019b8ae-0cec-4acd-9299-ac022c947b18> a skos:Concept ;
+    skos:broader <DEU003/91523a9d-661c-4775-b6d5-3a3f0f3193a8> ;
+    skos:inScheme <> ;
+    skos:notation "3.4.3" ;
+    skos:prefLabel "ein Kinderbuch selbst auswählen und vorstellen,"@de .
+
+<DEU003/a4802261-2da5-48cf-b587-a2a8f03fb8d1> a skos:Concept ;
+    skos:broader <DEU003/1a9eefa6-679d-499c-bd5a-9ace231198fd> ;
+    skos:inScheme <> ;
+    skos:notation "3.3.2" ;
+    skos:prefLabel "gezielt einzelne Informationen suchen,"@de .
+
+<DEU003/c0f747eb-2e79-4d79-8dc7-419412e83176> a skos:Concept ;
+    skos:broader <DEU003/91523a9d-661c-4775-b6d5-3a3f0f3193a8> ;
+    skos:inScheme <> ;
+    skos:notation "3.4.4" ;
+    skos:prefLabel "verschiedene Medien für Präsentationen nutzen,"@de .
+
+<DEU003/c2539975-64f4-48d8-bb96-cfd2aee4d287> a skos:Concept ;
+    skos:broader <DEU003/91523a9d-661c-4775-b6d5-3a3f0f3193a8> ;
+    skos:inScheme <> ;
+    skos:notation "3.4.2" ;
+    skos:prefLabel "Geschichten, Gedichte und Dialoge vortragen, auch auswendig,"@de .
+
+<DEU003/ccb88602-373c-4fe6-8b2b-c48066303b90> a skos:Concept ;
+    skos:broader <DEU003/464ddc0a-9a46-4ebd-8496-6cc5ce1c33c0> ;
+    skos:inScheme <> ;
+    skos:notation "3.2.6" ;
+    skos:prefLabel "die eigene Leseerfahrung beschreiben und einschätzen."@de .
+
+<DEU003/cecdfec8-fd69-42bf-9b5a-550677aa9531> a skos:Concept ;
+    skos:broader <DEU003/1a9eefa6-679d-499c-bd5a-9ace231198fd> ;
+    skos:inScheme <> ;
+    skos:notation "3.3.6" ;
+    skos:prefLabel "zentrale Aussagen eines Textes erfassen und wiedergeben,"@de .
+
+<DEU003/e929499b-f0ab-481f-9722-457d26a4df09> a skos:Concept ;
+    skos:broader <DEU003/464ddc0a-9a46-4ebd-8496-6cc5ce1c33c0> ;
+    skos:inScheme <> ;
+    skos:notation "3.2.6" ;
+    skos:prefLabel "Informationen in Druck - und – wenn vorhanden - elektronischen Medien suchen,"@de .
+
+<DEU004/00e96a83-b331-4300-8439-cb2babf4eb65> a skos:Concept ;
+    skos:broader <DEU004/9c04b3b7-e2b3-4a3f-845d-9afba40946cc> ;
+    skos:inScheme <> ;
+    skos:notation "4.2.3" ;
     skos:prefLabel "sprachliche Operationen nutzen: umstellen, ersetzen, ergänzen, weglassen,"@de .
 
-<DEU004/4.2/4.2.4> a skos:Concept ;
-    skos:broader <DEU004/4.2> ;
+<DEU004/0d7fdaee-ad81-4ce6-ab6c-c1094de409a6> a skos:Concept ;
+    skos:broader <DEU004/c37fce0b-ba38-4bd6-a1d1-2972a460ba3a> ;
     skos:inScheme <> ;
-    skos:prefLabel "die Textproduktion und das Textverständnis durch die Anwendung von sprachlichen Operationen unterstützen,"@de .
+    skos:notation "4.1.1" ;
+    skos:prefLabel "Beziehung zwischen Absicht – sprachlichen Merkmalen – Wirkungen untersuchen,"@de .
 
-<DEU004/4.2/4.2.5> a skos:Concept ;
-    skos:broader <DEU004/4.2> ;
+<DEU004/0fffad88-5e51-46a0-8ef8-7c536736b2ed> a skos:Concept ;
+    skos:broader <DEU004/c37fce0b-ba38-4bd6-a1d1-2972a460ba3a> ;
     skos:inScheme <> ;
-    skos:prefLabel "mit Sprache experimentell und spielerisch umgehen."@de .
+    skos:notation "4.1.2" ;
+    skos:prefLabel "Unterschiede von gesprochener und geschriebener Sprache kennen,"@de .
 
-<DEU004/4.3/4.3.1> a skos:Concept ;
-    skos:broader <DEU004/4.3> ;
+<DEU004/12ddc340-324e-4182-8c31-2717320b575e> a skos:Concept ;
+    skos:broader <DEU004/754c267d-c73a-4063-85f0-d90bf617b13c> ;
     skos:inScheme <> ;
-    skos:prefLabel "Deutsch – Fremdsprache, Dialekt – Standardsprache; Deutsch – Muttersprachen der Kinder mit Migrationshintergrund; Deutsch – Nachbarsprachen,"@de .
-
-<DEU004/4.3/4.3.2> a skos:Concept ;
-    skos:broader <DEU004/4.3> ;
-    skos:inScheme <> ;
-    skos:prefLabel "gebräuchliche Fremdwörter untersuchen."@de .
-
-<DEU004/4.4/4.4.1/4.4.1.1/4.4.1.1.1> a skos:Concept ;
-    skos:broader <DEU004/4.4/4.4.1/4.4.1.1> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Buchstabe, Laut, Selbstlaut, Mitlaut, Umlaut, Silbe, Alphabet"@de .
-
-<DEU004/4.4/4.4.1/4.4.1.1/4.4.1.1.2> a skos:Concept ;
-    skos:broader <DEU004/4.4/4.4.1/4.4.1.1> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Wortfamilie, Wortstamm, Wortbaustein, Wortfeld, Wortart"@de .
-
-<DEU004/4.4/4.4.1/4.4.1.1/4.4.1.1.3> a skos:Concept ;
-    skos:broader <DEU004/4.4/4.4.1/4.4.1.1> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Nomen: Einzahl, Mehrzahl, Fall, Geschlecht"@de .
-
-<DEU004/4.4/4.4.1/4.4.1.1/4.4.1.1.4> a skos:Concept ;
-    skos:broader <DEU004/4.4/4.4.1/4.4.1.1> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Verb: Grundform, gebeugte Form / Zeitformen: Gegenwart, Vergangenheitsformen"@de .
-
-<DEU004/4.4/4.4.1/4.4.1.1/4.4.1.1.5> a skos:Concept ;
-    skos:broader <DEU004/4.4/4.4.1/4.4.1.1> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Artikel: bestimmter Artikel, unbestimmter Artikel"@de .
-
-<DEU004/4.4/4.4.1/4.4.1.1/4.4.1.1.6> a skos:Concept ;
-    skos:broader <DEU004/4.4/4.4.1/4.4.1.1> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Adjektiv: Grundform, Vergleichsstufen"@de .
-
-<DEU004/4.4/4.4.1/4.4.1.1/4.4.1.1.7> a skos:Concept ;
-    skos:broader <DEU004/4.4/4.4.1/4.4.1.1> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Pronomen"@de .
-
-<DEU004/4.4/4.4.1/4.4.1.1/4.4.1.1.8> a skos:Concept ;
-    skos:broader <DEU004/4.4/4.4.1/4.4.1.1> ;
-    skos:inScheme <> ;
-    skos:prefLabel "andere Wörter (alle hier nicht kategorisierten Wörter gehören zu dieser Restkategorie)"@de .
-
-<DEU004/4.4/4.4.1/4.4.1.2/4.4.1.2.1> a skos:Concept ;
-    skos:broader <DEU004/4.4/4.4.1/4.4.1.2> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Satzzeichen: Punkt, Komma, Fragezeichen, Ausrufezeichen, Doppelpunkt, Redezeichen / Satzart: Aussage-, Frage-, Ausrufesatz / wörtliche Rede"@de .
-
-<DEU004/4.4/4.4.1/4.4.1.2/4.4.1.2.2> a skos:Concept ;
-    skos:broader <DEU004/4.4/4.4.1/4.4.1.2> ;
-    skos:inScheme <> ;
+    skos:notation "4.4.1.2.2" ;
     skos:prefLabel "Subjekt"@de .
 
-<DEU004/4.4/4.4.1/4.4.1.2/4.4.1.2.3> a skos:Concept ;
-    skos:broader <DEU004/4.4/4.4.1/4.4.1.2> ;
+<DEU004/144ec031-936e-40c7-b4bd-b6d9460b5297> a skos:Concept ;
+    skos:broader <DEU004/c37fce0b-ba38-4bd6-a1d1-2972a460ba3a> ;
     skos:inScheme <> ;
-    skos:prefLabel "Prädikat/Satzkern"@de .
+    skos:notation "4.1.4" ;
+    skos:prefLabel "über Verstehens- und Verständigungsprobleme sprechen."@de .
 
-<DEU004/4.4/4.4.1/4.4.1.2/4.4.1.2.4> a skos:Concept ;
-    skos:broader <DEU004/4.4/4.4.1/4.4.1.2> ;
+<DEU004/30548ba7-13fc-4528-9a2b-9bef0aaa6054> a skos:Concept ;
+    skos:broader <DEU004/754c267d-c73a-4063-85f0-d90bf617b13c> ;
     skos:inScheme <> ;
+    skos:notation "4.4.1.2.1" ;
+    skos:prefLabel "Satzzeichen: Punkt, Komma, Fragezeichen, Ausrufezeichen, Doppelpunkt, Redezeichen / Satzart: Aussage-, Frage-, Ausrufesatz / wörtliche Rede"@de .
+
+<DEU004/6c77b277-bccd-400e-9c80-325675f798a5> a skos:Concept ;
+    skos:broader <DEU004/9c04b3b7-e2b3-4a3f-845d-9afba40946cc> ;
+    skos:inScheme <> ;
+    skos:notation "4.2.2" ;
+    skos:prefLabel "Wörter sammeln und ordnen,"@de .
+
+<DEU004/7684e6ea-3e56-47ff-9547-074576e44c2c> a skos:Concept ;
+    skos:broader <DEU004/c37fce0b-ba38-4bd6-a1d1-2972a460ba3a> ;
+    skos:inScheme <> ;
+    skos:notation "4.1.3" ;
+    skos:prefLabel "Rollen von Sprecher/Schreiber – Hörer/Leser untersuchen und nutzen,"@de .
+
+<DEU004/844c3ba4-2e4e-45c8-8f81-013f68955417> a skos:Concept ;
+    skos:broader <DEU004/754c267d-c73a-4063-85f0-d90bf617b13c> ;
+    skos:inScheme <> ;
+    skos:notation "4.4.1.2.4" ;
     skos:prefLabel "Ergänzungen: Satzglied; einteilige, mehrteilige Ergänzung"@de .
 
-<DEU004/4.4/4.4.1/4.4.1.2/4.4.1.2.5> a skos:Concept ;
-    skos:broader <DEU004/4.4/4.4.1/4.4.1.2> ;
+<DEU004/8cf1cf38-e4e7-40f1-9643-44f06623c1b9> a skos:Concept ;
+    skos:broader <DEU004/c36fb6e0-8797-43dc-ab81-87bd4f4be735> ;
     skos:inScheme <> ;
+    skos:notation "4.4.1.1.5" ;
+    skos:prefLabel "Artikel: bestimmter Artikel, unbestimmter Artikel"@de .
+
+<DEU004/99034515-a775-4628-9b7c-5ce5fa473041> a skos:Concept ;
+    skos:broader <DEU004/9c04b3b7-e2b3-4a3f-845d-9afba40946cc> ;
+    skos:inScheme <> ;
+    skos:notation "4.2.4" ;
+    skos:prefLabel "die Textproduktion und das Textverständnis durch die Anwendung von sprachlichen Operationen unterstützen,"@de .
+
+<DEU004/9abb5813-551f-4711-a7ab-85bb2fdaf85c> a skos:Concept ;
+    skos:broader <DEU004/cccec50a-347c-4e5e-80fc-7fc7c14aba12> ;
+    skos:inScheme <> ;
+    skos:notation "4.3.2" ;
+    skos:prefLabel "gebräuchliche Fremdwörter untersuchen."@de .
+
+<DEU004/9d093873-f207-4482-8328-d5a28e3d5146> a skos:Concept ;
+    skos:broader <DEU004/c36fb6e0-8797-43dc-ab81-87bd4f4be735> ;
+    skos:inScheme <> ;
+    skos:notation "4.4.1.1.1" ;
+    skos:prefLabel "Buchstabe, Laut, Selbstlaut, Mitlaut, Umlaut, Silbe, Alphabet"@de .
+
+<DEU004/9d62f96a-0c28-4655-b567-0bed1532a1b6> a skos:Concept ;
+    skos:broader <DEU004/9c04b3b7-e2b3-4a3f-845d-9afba40946cc> ;
+    skos:inScheme <> ;
+    skos:notation "4.2.5" ;
+    skos:prefLabel "mit Sprache experimentell und spielerisch umgehen."@de .
+
+<DEU004/a79ccb55-1779-463c-9201-b497b274a617> a skos:Concept ;
+    skos:broader <DEU004/c36fb6e0-8797-43dc-ab81-87bd4f4be735> ;
+    skos:inScheme <> ;
+    skos:notation "4.4.1.1.7" ;
+    skos:prefLabel "Pronomen"@de .
+
+<DEU004/aadc89ba-e75f-4078-9a91-478597260ef5> a skos:Concept ;
+    skos:broader <DEU004/c36fb6e0-8797-43dc-ab81-87bd4f4be735> ;
+    skos:inScheme <> ;
+    skos:notation "4.4.1.1.2" ;
+    skos:prefLabel "Wortfamilie, Wortstamm, Wortbaustein, Wortfeld, Wortart"@de .
+
+<DEU004/acfbd52c-cb51-42cd-837a-262a0dff6f0a> a skos:Concept ;
+    skos:broader <DEU004/c36fb6e0-8797-43dc-ab81-87bd4f4be735> ;
+    skos:inScheme <> ;
+    skos:notation "4.4.1.1.4" ;
+    skos:prefLabel "Verb: Grundform, gebeugte Form / Zeitformen: Gegenwart, Vergangenheitsformen"@de .
+
+<DEU004/b42a63e2-1dcb-40ff-a3d4-1cbd85728261> a skos:Concept ;
+    skos:broader <DEU004/9c04b3b7-e2b3-4a3f-845d-9afba40946cc> ;
+    skos:inScheme <> ;
+    skos:notation "4.2.1" ;
+    skos:prefLabel "Wörter strukturieren und Möglichkeiten der Wortbildung kennen,"@de .
+
+<DEU004/bc7eca13-a4e8-47cf-84b0-006f525c3f17> a skos:Concept ;
+    skos:broader <DEU004/c36fb6e0-8797-43dc-ab81-87bd4f4be735> ;
+    skos:inScheme <> ;
+    skos:notation "4.4.1.1.6" ;
+    skos:prefLabel "Adjektiv: Grundform, Vergleichsstufen"@de .
+
+<DEU004/c2ee3277-90ea-4c8c-8ed5-851353432c3f> a skos:Concept ;
+    skos:broader <DEU004/c36fb6e0-8797-43dc-ab81-87bd4f4be735> ;
+    skos:inScheme <> ;
+    skos:notation "4.4.1.1.8" ;
+    skos:prefLabel "andere Wörter (alle hier nicht kategorisierten Wörter gehören zu dieser Restkategorie)"@de .
+
+<DEU004/c3650c00-42e1-4909-a6d7-54f9631438ef> a skos:Concept ;
+    skos:broader <DEU004/c36fb6e0-8797-43dc-ab81-87bd4f4be735> ;
+    skos:inScheme <> ;
+    skos:notation "4.4.1.1.3" ;
+    skos:prefLabel "Nomen: Einzahl, Mehrzahl, Fall, Geschlecht"@de .
+
+<DEU004/cb9e9040-ff57-4a0f-86d5-a22343accdc4> a skos:Concept ;
+    skos:broader <DEU004/754c267d-c73a-4063-85f0-d90bf617b13c> ;
+    skos:inScheme <> ;
+    skos:notation "4.4.1.2.3" ;
+    skos:prefLabel "Prädikat/Satzkern"@de .
+
+<DEU004/e387afdd-9d09-4554-9db4-3d17fbb26eb6> a skos:Concept ;
+    skos:broader <DEU004/754c267d-c73a-4063-85f0-d90bf617b13c> ;
+    skos:inScheme <> ;
+    skos:notation "4.4.1.2.5" ;
     skos:prefLabel "Vergangenheit, Gegenwart, Zukunft (als Zeitstufen)"@de .
 
-<DEU004/4.4> a skos:Concept ;
+<DEU004/f080bbd9-c537-4f89-9301-3380c70922b6> a skos:Concept ;
+    skos:broader <DEU004/cccec50a-347c-4e5e-80fc-7fc7c14aba12> ;
+    skos:inScheme <> ;
+    skos:notation "4.3.1" ;
+    skos:prefLabel "Deutsch – Fremdsprache, Dialekt – Standardsprache; Deutsch – Muttersprachen der Kinder mit Migrationshintergrund; Deutsch – Nachbarsprachen,"@de .
+
+<DEU004/83f6c630-74ee-42a8-ae23-f08de0598436> a skos:Concept ;
     skos:broader <DEU004> ;
     skos:definition "Es geht hier in erster Linie um die mit Begriffen und Strukturen gemeinten Kategorien. Die Bezeichnungen dafür können unterschiedlich sein."@de ;
     skos:inScheme <> ;
-    skos:narrower <DEU004/4.4/4.4.1> ;
+    skos:narrower <DEU004/6ea239bd-841a-4969-9a3c-6f7efa9e2aae> ;
+    skos:notation "4.4" ;
     skos:prefLabel "Grundlegende sprachliche Strukturen und Begriffe kennen und verwenden"@de .
 
-<DEU002/2.2/2.2.5> a skos:Concept ;
-    skos:broader <DEU002/2.2> ;
+<DEU002/107fb069-6b35-4b21-b3ab-09e2da84566d> a skos:Concept ;
+    skos:broader <DEU002/a9639ed2-c643-4d09-b864-acb8492ad235> ;
     skos:inScheme <> ;
-    skos:narrower <DEU002/2.2/2.2.5/2.2.5.1>,
-        <DEU002/2.2/2.2.5/2.2.5.2> ;
+    skos:narrower <DEU002/acffd643-6eee-49de-a010-c9935a6a45f2>,
+        <DEU002/ba6e1637-1bcc-4821-8a6c-be593feabc91> ;
+    skos:notation "2.2.5" ;
     skos:prefLabel "Rechtschreibhilfen verwenden"@de .
 
-<DEU002/2.3/2.3.1> a skos:Concept ;
-    skos:broader <DEU002/2.3> ;
+<DEU002/17ef852f-09cb-4b66-94f1-00c6a5fb7cbc> a skos:Concept ;
+    skos:broader <DEU002/6676d6ba-f1e2-4183-96b7-6909a58b12f8> ;
     skos:inScheme <> ;
-    skos:narrower <DEU002/2.3/2.3.1/2.3.5.1>,
-        <DEU002/2.3/2.3.1/2.3.5.2> ;
+    skos:narrower <DEU002/4b57155d-59aa-41c8-8443-b595c513b3be>,
+        <DEU002/9d55db03-0a1d-4119-90cd-e39223a67395> ;
+    skos:notation "2.3.1" ;
     skos:prefLabel "Texte planen"@de .
 
-<DEU003/3.1> a skos:Concept ;
+<DEU003/dfce58c7-6e20-48e5-a5cb-7dab218893fb> a skos:Concept ;
     skos:broader <DEU003> ;
     skos:inScheme <> ;
-    skos:narrower <DEU003/3.1/3.1.1>,
-        <DEU003/3.1/3.1.2> ;
+    skos:narrower <DEU003/5ad2a850-96a1-4875-af61-781c6c370365>,
+        <DEU003/6f74943e-2349-4147-88d4-2aedad656a74> ;
+    skos:notation "3.1" ;
     skos:prefLabel "Über Lesefähigkeiten verfügen"@de .
 
-<DEU004/4.3> a skos:Concept ;
-    skos:broader <DEU004> ;
+<DEU004/6ea239bd-841a-4969-9a3c-6f7efa9e2aae> a skos:Concept ;
+    skos:broader <DEU004/83f6c630-74ee-42a8-ae23-f08de0598436> ;
     skos:inScheme <> ;
-    skos:narrower <DEU004/4.3/4.3.1>,
-        <DEU004/4.3/4.3.2> ;
-    skos:prefLabel "Gemeinsamkeiten und Unterschiede von Sprachen entdecken"@de .
-
-<DEU004/4.4/4.4.1> a skos:Concept ;
-    skos:broader <DEU004/4.4> ;
-    skos:inScheme <> ;
-    skos:narrower <DEU004/4.4/4.4.1/4.4.1.1>,
-        <DEU004/4.4/4.4.1/4.4.1.2> ;
+    skos:narrower <DEU004/754c267d-c73a-4063-85f0-d90bf617b13c>,
+        <DEU004/c36fb6e0-8797-43dc-ab81-87bd4f4be735> ;
+    skos:notation "4.4.1" ;
     skos:prefLabel "Grundlegende sprachliche Strukturen und Begriffe"@de .
 
-<DEU001/1.1> a skos:Concept ;
-    skos:broader <DEU001> ;
+<DEU004/cccec50a-347c-4e5e-80fc-7fc7c14aba12> a skos:Concept ;
+    skos:broader <DEU004> ;
     skos:inScheme <> ;
-    skos:narrower <DEU001/1.1/1.1.1>,
-        <DEU001/1.1/1.1.2>,
-        <DEU001/1.1/1.1.3> ;
-    skos:prefLabel "Gespräche führen"@de .
+    skos:narrower <DEU004/9abb5813-551f-4711-a7ab-85bb2fdaf85c>,
+        <DEU004/f080bbd9-c537-4f89-9301-3380c70922b6> ;
+    skos:notation "4.3" ;
+    skos:prefLabel "Gemeinsamkeiten und Unterschiede von Sprachen entdecken"@de .
 
-<DEU001/1.3> a skos:Concept ;
+<DEU001/263c0963-a8d3-4aa2-9bda-df84e4dd1e92> a skos:Concept ;
     skos:broader <DEU001> ;
     skos:inScheme <> ;
-    skos:narrower <DEU001/1.3/1.3.1>,
-        <DEU001/1.3/1.3.2>,
-        <DEU001/1.3/1.3.3> ;
+    skos:narrower <DEU001/7a603ce6-85de-43af-a04c-183437270fa6>,
+        <DEU001/b4ac7e38-f237-42d8-b5ec-adf7be96c12b>,
+        <DEU001/c68b9d2f-b063-4c28-84de-f8f5a60ec29e> ;
+    skos:notation "1.4" ;
+    skos:prefLabel "Szenisch spielen"@de .
+
+<DEU001/36f73e22-26d9-4a6a-babc-be10c914cd77> a skos:Concept ;
+    skos:broader <DEU001> ;
+    skos:inScheme <> ;
+    skos:narrower <DEU001/0859a9d1-7c32-433c-be2b-b7d263f9df62>,
+        <DEU001/6aeb4774-9315-4843-85d4-fad73e64e4bf>,
+        <DEU001/7498d7eb-2928-4f5e-a6ab-e38df47ccb3b> ;
+    skos:notation "1.3" ;
     skos:prefLabel "Verstehend zuhören"@de .
 
-<DEU001/1.4> a skos:Concept ;
+<DEU001/8bb9c306-04b6-41eb-b2a2-358fbb8cfb70> a skos:Concept ;
     skos:broader <DEU001> ;
     skos:inScheme <> ;
-    skos:narrower <DEU001/1.4/1.4.1>,
-        <DEU001/1.4/1.4.2>,
-        <DEU001/1.4/1.4.3> ;
-    skos:prefLabel "Szenisch spielen"@de .
+    skos:narrower <DEU001/42a54a34-5347-4e3b-b30a-b70b49112b72>,
+        <DEU001/5ce66845-84b7-439b-8ef8-b9d3c2af4df3>,
+        <DEU001/f9571d59-8391-49c8-920e-368377d47121> ;
+    skos:notation "1.1" ;
+    skos:prefLabel "Gespräche führen"@de .
 
 <DEU002> a skos:Concept ;
     skos:definition "Im Unterschied zum Sprechen wird beim Schreiben der Text langsamer und überlegter entwickelt, über Geschriebenes kann auch mit anderen nachgedacht und es kann entsprechend überarbeitet werden.<br><br>Die Schülerinnen und Schüler nutzen Schreiben zur Kommunikation, zur Aufbewahrung von Informationen, zur gedanklichen Auseinandersetzung sowie zum kreativen und gestalterischen Umgang mit Sprache. Sie gestalten den Schreibprozess selbstständig und verfassen ihre Texte bewusst im Zusammenhang von Schreibabsicht, Inhaltsbezug und Verwendungszusammenhang. Dabei greifen die Teilprozesse des Schreibens ineinander: Texte planen, aufschreiben und überarbeiten.<br><br>Die Kinder verfügen über grundlegende Rechtschreibstrategien. Sie können lautentsprechend verschriften und berücksichtigen orthographische und morphematische Regelungen und grammatisches Wissen. Sie haben erste Einsichten in die Prinzipien der Rechtschreibung gewonnen. Sie erproben und vergleichen Schreibweisen und denken über sie nach. Sie gelangen durch Vergleichen, Nachschlagen im Wörterbuch und Anwenden von Regeln zur richtigen Schreibweise. Sie entwickeln Rechtschreibgespür und Selbstverantwortung ihren Texten gegenüber.<br><br>Die Schülerinnen und Schüler verfügen über verschiedene Möglichkeiten der ästhetischen Darstellung entsprechend dem Schreibanlass und arbeiten mit unterschiedlichen Medien. Sie schreiben eine lesbare und flüssige Handschrift."@de ;
-    skos:narrower <DEU002/2.1>,
-        <DEU002/2.2>,
-        <DEU002/2.3> ;
+    skos:narrower <DEU002/6676d6ba-f1e2-4183-96b7-6909a58b12f8>,
+        <DEU002/a9639ed2-c643-4d09-b864-acb8492ad235>,
+        <DEU002/e29190d5-c6e3-45fd-a6f2-42cb4c087cbe> ;
     skos:prefLabel "Schreiben"@de ;
     skos:topConceptOf <> .
 
-<DEU002/2.1> a skos:Concept ;
-    skos:broader <DEU002> ;
+<DEU002/00962b8f-30ef-40d5-af30-7b4047f98e96> a skos:Concept ;
+    skos:broader <DEU002/a9639ed2-c643-4d09-b864-acb8492ad235> ;
     skos:inScheme <> ;
-    skos:narrower <DEU002/2.1/2.1.1>,
-        <DEU002/2.1/2.1.2>,
-        <DEU002/2.1/2.1.3> ;
-    skos:prefLabel "Über Schreibfertigkeiten verfügen"@de .
-
-<DEU002/2.2/2.2.6> a skos:Concept ;
-    skos:broader <DEU002/2.2> ;
-    skos:inScheme <> ;
-    skos:narrower <DEU002/2.2/2.2.6/2.2.6.1>,
-        <DEU002/2.2/2.2.6/2.2.6.2>,
-        <DEU002/2.2/2.2.6/2.2.6.3> ;
+    skos:narrower <DEU002/28502e8e-9131-4fff-964f-c14b8cccada6>,
+        <DEU002/94c5e35f-e22a-438d-bf13-0c3b122946e6>,
+        <DEU002/e672871b-4bd2-4c4d-b55b-b1783c543ca7> ;
+    skos:notation "2.2.6" ;
     skos:prefLabel "Arbeitstechniken nutzen"@de .
 
-<DEU002/2.3> a skos:Concept ;
+<DEU002/6676d6ba-f1e2-4183-96b7-6909a58b12f8> a skos:Concept ;
     skos:broader <DEU002> ;
     skos:inScheme <> ;
-    skos:narrower <DEU002/2.3/2.3.1>,
-        <DEU002/2.3/2.3.2>,
-        <DEU002/2.3/2.3.3> ;
+    skos:narrower <DEU002/17ef852f-09cb-4b66-94f1-00c6a5fb7cbc>,
+        <DEU002/a1eef693-2b16-493b-a166-951254cb5f66>,
+        <DEU002/bbc53528-2ae2-4448-abc6-2f03d0d057a3> ;
+    skos:notation "2.3" ;
     skos:prefLabel "Texte verfassen"@de .
 
-<DEU002/2.3/2.3.2> a skos:Concept ;
-    skos:broader <DEU002/2.3> ;
+<DEU002/a1eef693-2b16-493b-a166-951254cb5f66> a skos:Concept ;
+    skos:broader <DEU002/6676d6ba-f1e2-4183-96b7-6909a58b12f8> ;
     skos:inScheme <> ;
-    skos:narrower <DEU002/2.3/2.3.2/2.3.5.1>,
-        <DEU002/2.3/2.3.2/2.3.5.2>,
-        <DEU002/2.3/2.3.2/2.3.5.3> ;
+    skos:narrower <DEU002/2e0005f5-a0d4-4c8f-a236-26de038e2f9c>,
+        <DEU002/63394391-0f67-4785-831a-eda7ada208ed>,
+        <DEU002/6de0de8e-7231-402c-af85-ff4d48b54a44> ;
+    skos:notation "2.3.2" ;
     skos:prefLabel "Texte schreiben"@de .
 
-<DEU001/1.2> a skos:Concept ;
+<DEU002/e29190d5-c6e3-45fd-a6f2-42cb4c087cbe> a skos:Concept ;
+    skos:broader <DEU002> ;
+    skos:inScheme <> ;
+    skos:narrower <DEU002/623a1cc3-5189-428b-a7d7-597a00b22019>,
+        <DEU002/90e5d919-fedf-49e7-898d-067a92f182e9>,
+        <DEU002/ad3dfb8f-1d8a-4ad0-85df-59be3104c4b6> ;
+    skos:notation "2.1" ;
+    skos:prefLabel "Über Schreibfertigkeiten verfügen"@de .
+
+<DEU001/1d6f82de-b5ad-4493-850c-d6920a2dc5bb> a skos:Concept ;
     skos:broader <DEU001> ;
     skos:inScheme <> ;
-    skos:narrower <DEU001/1.2/1.2.1>,
-        <DEU001/1.2/1.2.2>,
-        <DEU001/1.2/1.2.3>,
-        <DEU001/1.2/1.2.4> ;
+    skos:narrower <DEU001/3793212d-b99d-40d6-a56e-439ae14b0dac>,
+        <DEU001/43b97621-75ab-4cfa-ba4a-66bd529c8b41>,
+        <DEU001/c686aec5-4630-4bf6-bb73-ea3e86e2f8f5>,
+        <DEU001/c99cc2b8-8559-4b59-a974-79b7187201b0> ;
+    skos:notation "1.2" ;
     skos:prefLabel "Zu anderen sprechen"@de .
 
-<DEU002/2.3/2.3.3> a skos:Concept ;
-    skos:broader <DEU002/2.3> ;
+<DEU002/bbc53528-2ae2-4448-abc6-2f03d0d057a3> a skos:Concept ;
+    skos:broader <DEU002/6676d6ba-f1e2-4183-96b7-6909a58b12f8> ;
     skos:inScheme <> ;
-    skos:narrower <DEU002/2.3/2.3.3/2.3.5.1>,
-        <DEU002/2.3/2.3.3/2.3.5.2>,
-        <DEU002/2.3/2.3.3/2.3.5.3>,
-        <DEU002/2.3/2.3.3/2.3.5.4> ;
+    skos:narrower <DEU002/ae48fa96-1af6-4591-b539-1621ecc50748>,
+        <DEU002/b303e6f6-4ec4-48bc-9a3c-164349d07ee5>,
+        <DEU002/c987c913-0853-4012-82ec-a6472c034830>,
+        <DEU002/e9ba5882-f370-4f38-ab41-0c722f62f6b4> ;
+    skos:notation "2.3.3" ;
     skos:prefLabel "Texte überarbeiten"@de .
 
 <DEU003> a skos:Concept ;
     skos:definition "Lesen ist ein eigenaktiver Prozess der Sinnkonstruktion. Die Grundschule führt zum genießenden, informierenden, selektiven, interpretierenden und kritischen Lesen und legt damit eine tragfähige Grundlage für weiteres Lernen, für weiteres selbstbestimmtes Lesen und eine bewusste Auswahl geeigneter Medien.<br><br>Die Kinder erfahren, dass Lesen eine Auseinandersetzung mit der Welt ermöglicht und Vergnügen bereiten kann. Dazu werden an unterschiedlichen Texten Leseinteresse, Lesebereitschaft, Lesefertigkeit und sinnverstehendes Lesen entwickelt. Beim Hören und Lesen literarischer Texte beschäftigen sich die Kinder mit wichtigen, sie bewegenden Fragen und setzen sich identifizierend und abgrenzend mit literarischen Figuren auseinander. Schülerinnen und Schüler gehen mit unterschiedlichen Textsorten in verschiedenen Medien um und können sich ihrem Alter entsprechend in der Medienwelt orientieren, d.h. in Druckmedien, in elektronischen Medien sowie in Massenmedien."@de ;
-    skos:narrower <DEU003/3.1>,
-        <DEU003/3.2>,
-        <DEU003/3.3>,
-        <DEU003/3.4> ;
+    skos:narrower <DEU003/1a9eefa6-679d-499c-bd5a-9ace231198fd>,
+        <DEU003/464ddc0a-9a46-4ebd-8496-6cc5ce1c33c0>,
+        <DEU003/91523a9d-661c-4775-b6d5-3a3f0f3193a8>,
+        <DEU003/dfce58c7-6e20-48e5-a5cb-7dab218893fb> ;
     skos:prefLabel "Lesen - mit Texten und Medien umgehen"@de ;
     skos:topConceptOf <> .
 
 <DEU004> a skos:Concept ;
     skos:definition "Anknüpfend an ihre Spracherfahrungen entwickeln die Kinder ihr Sprachgefühl weiter und gehen bewusster mit Sprache um. In altersgemäßen, lebensnahen Sprach- und Kommunikationssituationen erfahren und untersuchen die Kinder die Sprache in ihren Verwendungszusammenhängen und gehen dabei auf die inhaltliche Dimension und die Leistung von Wörtern, Sätzen und Texten ein. Sie sprechen auch über Erfahrungen mit anderen Sprachen. Sie verfügen über ein Grundwissen an grammatischen Strukturen, einen Grundbestand an Begriffen und Verfahren zum Untersuchen von Sprache."@de ;
-    skos:narrower <DEU004/4.1>,
-        <DEU004/4.2>,
-        <DEU004/4.3>,
-        <DEU004/4.4> ;
+    skos:narrower <DEU004/83f6c630-74ee-42a8-ae23-f08de0598436>,
+        <DEU004/9c04b3b7-e2b3-4a3f-845d-9afba40946cc>,
+        <DEU004/c37fce0b-ba38-4bd6-a1d1-2972a460ba3a>,
+        <DEU004/cccec50a-347c-4e5e-80fc-7fc7c14aba12> ;
     skos:prefLabel "Sprache und Sprachgebrauch untersuchen"@de ;
     skos:topConceptOf <> .
 
-<DEU004/4.1> a skos:Concept ;
+<DEU004/c37fce0b-ba38-4bd6-a1d1-2972a460ba3a> a skos:Concept ;
     skos:broader <DEU004> ;
     skos:inScheme <> ;
-    skos:narrower <DEU004/4.1/4.1.1>,
-        <DEU004/4.1/4.1.2>,
-        <DEU004/4.1/4.1.3>,
-        <DEU004/4.1/4.1.4> ;
+    skos:narrower <DEU004/0d7fdaee-ad81-4ce6-ab6c-c1094de409a6>,
+        <DEU004/0fffad88-5e51-46a0-8ef8-7c536736b2ed>,
+        <DEU004/144ec031-936e-40c7-b4bd-b6d9460b5297>,
+        <DEU004/7684e6ea-3e56-47ff-9547-074576e44c2c> ;
+    skos:notation "4.1" ;
     skos:prefLabel "Sprachliche Verständigung untersuchen"@de .
 
 <DEU001> a skos:Concept ;
     skos:definition "Die mündliche Sprache ist ein zentrales Mittel aller schulischen und außerschulischen Kommunikation. Sprechen ist immer auch soziales Handeln.<br><br>Die Kinder entwickeln eine demokratische Gesprächskultur und erweitern ihre mündliche Sprachhandlungskompetenz. Sie führen Gespräche, erzählen, geben und verarbeiten Informationen, gestalten ihr Sprechen bewusst und leisten mündliche Beiträge zum Unterricht.<br><br>Sie drücken ihre Gedanken und Gefühle aus und formulieren ihre Äußerungen im Hinblick auf Zuhörer und Situation angemessen, hören aufmerksam und genau zu, nehmen die Äußerungen anderer und setzen sich mit diesen konstruktiv auseinander."@de ;
-    skos:narrower <DEU001/1.1>,
-        <DEU001/1.2>,
-        <DEU001/1.3>,
-        <DEU001/1.4>,
-        <DEU001/1.5> ;
+    skos:narrower <DEU001/1d6f82de-b5ad-4493-850c-d6920a2dc5bb>,
+        <DEU001/25122674-0b8c-40b5-b748-36ecca6fe898>,
+        <DEU001/263c0963-a8d3-4aa2-9bda-df84e4dd1e92>,
+        <DEU001/36f73e22-26d9-4a6a-babc-be10c914cd77>,
+        <DEU001/8bb9c306-04b6-41eb-b2a2-358fbb8cfb70> ;
     skos:prefLabel "Sprechen und Zuhören"@de ;
     skos:topConceptOf <> .
 
-<DEU001/1.5> a skos:Concept ;
+<DEU001/25122674-0b8c-40b5-b748-36ecca6fe898> a skos:Concept ;
     skos:broader <DEU001> ;
     skos:inScheme <> ;
-    skos:narrower <DEU001/1.5/1.5.1>,
-        <DEU001/1.5/1.5.2>,
-        <DEU001/1.5/1.5.3>,
-        <DEU001/1.5/1.5.4>,
-        <DEU001/1.5/1.5.5> ;
+    skos:narrower <DEU001/53e3100d-9814-4c48-ae36-bd97d58fdd3e>,
+        <DEU001/552d5f62-0b0f-4676-90f3-7e877cd2e20c>,
+        <DEU001/9e67c852-9713-411e-9cd0-4db6fe3756ac>,
+        <DEU001/c6a73b7b-3f8d-4b4f-824e-49fd8d04805b>,
+        <DEU001/db747fea-0bc8-4c7e-800d-e934620d5be2> ;
+    skos:notation "1.5" ;
     skos:prefLabel "Über Lernen sprechen"@de .
 
-<DEU003/3.4> a skos:Concept ;
+<DEU003/91523a9d-661c-4775-b6d5-3a3f0f3193a8> a skos:Concept ;
     skos:broader <DEU003> ;
     skos:inScheme <> ;
-    skos:narrower <DEU003/3.4/3.4.1>,
-        <DEU003/3.4/3.4.2>,
-        <DEU003/3.4/3.4.3>,
-        <DEU003/3.4/3.4.4>,
-        <DEU003/3.4/3.4.5> ;
+    skos:narrower <DEU003/0b3870b2-42df-4824-9e06-8e04d76badf8>,
+        <DEU003/6e5093c4-679d-4021-a0fd-760937c2b981>,
+        <DEU003/a019b8ae-0cec-4acd-9299-ac022c947b18>,
+        <DEU003/c0f747eb-2e79-4d79-8dc7-419412e83176>,
+        <DEU003/c2539975-64f4-48d8-bb96-cfd2aee4d287> ;
+    skos:notation "3.4" ;
     skos:prefLabel "Texte präsentieren"@de .
 
-<DEU004/4.2> a skos:Concept ;
-    skos:broader <DEU004> ;
+<DEU004/754c267d-c73a-4063-85f0-d90bf617b13c> a skos:Concept ;
+    skos:broader <DEU004/6ea239bd-841a-4969-9a3c-6f7efa9e2aae> ;
     skos:inScheme <> ;
-    skos:narrower <DEU004/4.2/4.2.1>,
-        <DEU004/4.2/4.2.2>,
-        <DEU004/4.2/4.2.3>,
-        <DEU004/4.2/4.2.4>,
-        <DEU004/4.2/4.2.5> ;
-    skos:prefLabel "An Wörtern, Sätzen, Texten arbeiten"@de .
-
-<DEU004/4.4/4.4.1/4.4.1.2> a skos:Concept ;
-    skos:broader <DEU004/4.4/4.4.1> ;
-    skos:inScheme <> ;
-    skos:narrower <DEU004/4.4/4.4.1/4.4.1.2/4.4.1.2.1>,
-        <DEU004/4.4/4.4.1/4.4.1.2/4.4.1.2.2>,
-        <DEU004/4.4/4.4.1/4.4.1.2/4.4.1.2.3>,
-        <DEU004/4.4/4.4.1/4.4.1.2/4.4.1.2.4>,
-        <DEU004/4.4/4.4.1/4.4.1.2/4.4.1.2.5> ;
+    skos:narrower <DEU004/12ddc340-324e-4182-8c31-2717320b575e>,
+        <DEU004/30548ba7-13fc-4528-9a2b-9bef0aaa6054>,
+        <DEU004/844c3ba4-2e4e-45c8-8f81-013f68955417>,
+        <DEU004/cb9e9040-ff57-4a0f-86d5-a22343accdc4>,
+        <DEU004/e387afdd-9d09-4554-9db4-3d17fbb26eb6> ;
+    skos:notation "4.4.1.2" ;
     skos:prefLabel "Satz"@de .
 
-<DEU002/2.2> a skos:Concept ;
+<DEU004/9c04b3b7-e2b3-4a3f-845d-9afba40946cc> a skos:Concept ;
+    skos:broader <DEU004> ;
+    skos:inScheme <> ;
+    skos:narrower <DEU004/00e96a83-b331-4300-8439-cb2babf4eb65>,
+        <DEU004/6c77b277-bccd-400e-9c80-325675f798a5>,
+        <DEU004/99034515-a775-4628-9b7c-5ce5fa473041>,
+        <DEU004/9d62f96a-0c28-4655-b567-0bed1532a1b6>,
+        <DEU004/b42a63e2-1dcb-40ff-a3d4-1cbd85728261> ;
+    skos:notation "4.2" ;
+    skos:prefLabel "An Wörtern, Sätzen, Texten arbeiten"@de .
+
+<DEU002/a9639ed2-c643-4d09-b864-acb8492ad235> a skos:Concept ;
     skos:broader <DEU002> ;
     skos:inScheme <> ;
-    skos:narrower <DEU002/2.2/2.2.1>,
-        <DEU002/2.2/2.2.2>,
-        <DEU002/2.2/2.2.3>,
-        <DEU002/2.2/2.2.4>,
-        <DEU002/2.2/2.2.5>,
-        <DEU002/2.2/2.2.6> ;
+    skos:narrower <DEU002/00962b8f-30ef-40d5-af30-7b4047f98e96>,
+        <DEU002/107fb069-6b35-4b21-b3ab-09e2da84566d>,
+        <DEU002/16b29209-0bfb-4330-b468-b6386ad49916>,
+        <DEU002/43012326-3f6c-4fd9-84c0-c0e89cf65286>,
+        <DEU002/9af47a61-d830-4696-9f8b-706f0be04d58>,
+        <DEU002/ee0d99c8-8267-45b2-acc1-53ff61387f61> ;
+    skos:notation "2.2" ;
     skos:prefLabel "Richtig schreiben"@de .
 
-<DEU003/3.2> a skos:Concept ;
+<DEU003/464ddc0a-9a46-4ebd-8496-6cc5ce1c33c0> a skos:Concept ;
     skos:broader <DEU003> ;
     skos:inScheme <> ;
-    skos:narrower <DEU003/3.2/3.2.1>,
-        <DEU003/3.2/3.2.2>,
-        <DEU003/3.2/3.2.3>,
-        <DEU003/3.2/3.2.4>,
-        <DEU003/3.2/3.2.5>,
-        <DEU003/3.2/3.2.6> ;
+    skos:narrower <DEU003/11bc0d9c-9443-4523-a25a-5cb723123886>,
+        <DEU003/19867630-5850-4de9-a8d6-8dac0fa8702a>,
+        <DEU003/2f91523e-7686-42bf-b770-e5c7e2a65103>,
+        <DEU003/33bb1128-7eed-4471-9b89-851e37d2118b>,
+        <DEU003/4098e8da-def6-4bae-bbc2-adbd5ab069f7>,
+        <DEU003/47a1f8ea-e2eb-484f-b59f-e89b3fa60349>,
+        <DEU003/ccb88602-373c-4fe6-8b2b-c48066303b90>,
+        <DEU003/e929499b-f0ab-481f-9722-457d26a4df09> ;
+    skos:notation "3.2" ;
     skos:prefLabel "Über Leseerfahrung verfügen"@de .
 
-<DEU004/4.4/4.4.1/4.4.1.1> a skos:Concept ;
-    skos:broader <DEU004/4.4/4.4.1> ;
+<DEU004/c36fb6e0-8797-43dc-ab81-87bd4f4be735> a skos:Concept ;
+    skos:broader <DEU004/6ea239bd-841a-4969-9a3c-6f7efa9e2aae> ;
     skos:inScheme <> ;
-    skos:narrower <DEU004/4.4/4.4.1/4.4.1.1/4.4.1.1.1>,
-        <DEU004/4.4/4.4.1/4.4.1.1/4.4.1.1.2>,
-        <DEU004/4.4/4.4.1/4.4.1.1/4.4.1.1.3>,
-        <DEU004/4.4/4.4.1/4.4.1.1/4.4.1.1.4>,
-        <DEU004/4.4/4.4.1/4.4.1.1/4.4.1.1.5>,
-        <DEU004/4.4/4.4.1/4.4.1.1/4.4.1.1.6>,
-        <DEU004/4.4/4.4.1/4.4.1.1/4.4.1.1.7>,
-        <DEU004/4.4/4.4.1/4.4.1.1/4.4.1.1.8> ;
+    skos:narrower <DEU004/8cf1cf38-e4e7-40f1-9643-44f06623c1b9>,
+        <DEU004/9d093873-f207-4482-8328-d5a28e3d5146>,
+        <DEU004/a79ccb55-1779-463c-9201-b497b274a617>,
+        <DEU004/aadc89ba-e75f-4078-9a91-478597260ef5>,
+        <DEU004/acfbd52c-cb51-42cd-837a-262a0dff6f0a>,
+        <DEU004/bc7eca13-a4e8-47cf-84b0-006f525c3f17>,
+        <DEU004/c2ee3277-90ea-4c8c-8ed5-851353432c3f>,
+        <DEU004/c3650c00-42e1-4909-a6d7-54f9631438ef> ;
+    skos:notation "4.4.1.1" ;
     skos:prefLabel "Wort"@de .
 
-<DEU003/3.3> a skos:Concept ;
+<DEU003/1a9eefa6-679d-499c-bd5a-9ace231198fd> a skos:Concept ;
     skos:broader <DEU003> ;
     skos:inScheme <> ;
-    skos:narrower <DEU003/3.3/3.3.1>,
-        <DEU003/3.3/3.3.10>,
-        <DEU003/3.3/3.3.11>,
-        <DEU003/3.3/3.3.2>,
-        <DEU003/3.3/3.3.3>,
-        <DEU003/3.3/3.3.4>,
-        <DEU003/3.3/3.3.5>,
-        <DEU003/3.3/3.3.6>,
-        <DEU003/3.3/3.3.7>,
-        <DEU003/3.3/3.3.8>,
-        <DEU003/3.3/3.3.9> ;
+    skos:narrower <DEU003/26c9ff96-db30-4993-9bec-d98034dd6e30>,
+        <DEU003/3e65c692-cf7e-4301-9991-58f223e48920>,
+        <DEU003/411f4381-d3da-4123-8ec3-bc74b45b800b>,
+        <DEU003/4ba9a46f-e629-4e50-91b1-dd7deb402f34>,
+        <DEU003/5902ed1a-0d95-4a64-830c-c389de3141b9>,
+        <DEU003/6b4492a1-8397-456f-91bc-37277d3e84ea>,
+        <DEU003/7eb91d0b-a45e-4bfd-a534-6de5be7eeab3>,
+        <DEU003/88b2584e-2b07-427f-9403-415ff939afd0>,
+        <DEU003/902af836-0be9-443a-a852-b0e4808cb98a>,
+        <DEU003/a4802261-2da5-48cf-b587-a2a8f03fb8d1>,
+        <DEU003/cecdfec8-fd69-42bf-9b5a-550677aa9531> ;
+    skos:notation "3.3" ;
     skos:prefLabel "Texte erschließen"@de .
 
 <> a skos:ConceptScheme ;
